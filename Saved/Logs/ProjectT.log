@@ -1,4 +1,4 @@
-﻿Log file open, 06/29/18 01:06:12
+﻿Log file open, 07/02/18 00:21:05
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: ProjectT
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(1885708617) SRandInit(1885708617).
+LogInit: Display: RandInit(-1125175346) SRandInit(-1125175346).
 LogInit: Read version file with build ID '3944462'
 LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
 LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.177842
+LogStats: Stats thread started at 0.213910
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
@@ -168,7 +168,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  1.869s to configure plugins.
+LogStreaming: Display: Took  1.645s to configure plugins.
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -188,7 +188,7 @@ LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured
 LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
 LogInit:  - LocalHostAddr = Default
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-LogInit: WinSock: I am DESKTOP-7A32EGI (172.30.1.36:0)
+LogInit: WinSock: I am DESKTOP-7A32EGI (192.168.200.122:0)
 LogInit: Build: ++UE4+Release-4.19-CL-4033788
 LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
 LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
@@ -222,434 +222,942 @@ LogInit: Installed Engine Build: 1
 LogStreaming: Display: Took  0.002s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.06.28-16.06.14:676][  0]LogInit: Selected Device Profile: [Windows]
-[2018.06.28-16.06.14:676][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.06.28-16.06.14:745][  0]LogInit: Computer: DESKTOP-7A32EGI
-[2018.06.28-16.06.14:745][  0]LogInit: User: kang
-[2018.06.28-16.06.14:745][  0]LogInit: CPU Page size=4096, Cores=2
-[2018.06.28-16.06.14:745][  0]LogInit: High frequency timer resolution =2.533209 MHz
-[2018.06.28-16.06.14:745][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2018.06.28-16.06.14:745][  0]LogMemory: Platform Memory Stats for Windows
-[2018.06.28-16.06.14:745][  0]LogMemory: Process Physical Memory: 273.78 MB used, 273.78 MB peak
-[2018.06.28-16.06.14:745][  0]LogMemory: Process Virtual Memory: 266.05 MB used, 266.05 MB peak
-[2018.06.28-16.06.14:745][  0]LogMemory: Physical Memory: 3400.47 MB used,  4699.30 MB free, 8099.77 MB total
-[2018.06.28-16.06.14:745][  0]LogMemory: Virtual Memory: 4781.94 MB used,  4699.30 MB free, 134217728.00 MB total
-[2018.06.28-16.06.14:789][  0]LogInit: Using OS detected language (ko-KR).
-[2018.06.28-16.06.14:789][  0]LogInit: Using OS detected locale (ko-KR).
-[2018.06.28-16.06.14:878][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
-[2018.06.28-16.06.15:319][  0]LogStreaming: Display: Took  0.531s to EndInitTextLocalization.
-[2018.06.28-16.06.15:319][  0]LogInit: Setting process to per monitor DPI aware
-[2018.06.28-16.06.15:479][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.06.28-16.06.15:479][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.06.28-16.06.18:941][  0]LogD3D11RHI: D3D11 adapters:
-[2018.06.28-16.06.19:189][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 840M' (Feature Level 11_0)
-[2018.06.28-16.06.19:189][  0]LogD3D11RHI:       2019/0/4049 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2018.06.28-16.06.19:197][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
-[2018.06.28-16.06.19:197][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.06.28-16.06.19:200][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.06.28-16.06.19:201][  0]LogD3D11RHI:       0/0/4049 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.06.28-16.06.19:201][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.06.28-16.06.19:218][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.06.28-16.06.19:218][  0]LogD3D11RHI:     GPU DeviceId: 0x1341 (for the marketing name, search the web for "GPU Device Id")
-[2018.06.28-16.06.19:218][  0]LogWindows: EnumDisplayDevices:
-[2018.06.28-16.06.19:218][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
-[2018.06.28-16.06.19:219][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:1)
-[2018.06.28-16.06.19:220][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2018.06.28-16.06.19:220][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.06.28-16.06.19:220][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 840M
-[2018.06.28-16.06.19:220][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.06.28-16.06.19:220][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.06.28-16.06.19:220][  0]LogRHI: Texture pool is 1413 MB (70% of 2019 MB)
-[2018.06.28-16.06.19:244][  0]LogD3D11RHI: [Aftermath] Aftermath enabled but failed to initialize
-[2018.06.28-16.06.19:244][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.06.28-16.06.19:244][  0]LogD3D11RHI: Async texture creation enabled
-[2018.06.28-16.06.19:262][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.06.28-16.06.19:264][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (../../../../../../Users/kang/Documents/GitHub/ProjectT/Intermediate/Shaders/WorkingDirectory/10176/).
-[2018.06.28-16.06.19:264][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kang/AppData/Local/Temp/UnrealShaderWorkingDir/7EDB9F3F4073BFF923261C985B56D180/'.
-[2018.06.28-16.06.19:654][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.06.28-16.06.19:672][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.06.28-16.06.19:690][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.06.28-16.06.19:708][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.06.28-16.06.19:803][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.06.28-16.06.19:821][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.06.28-16.06.19:838][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.06.28-16.06.19:857][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.06.28-16.06.19:866][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.06.28-16.06.19:882][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.06.28-16.06.19:897][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.06.28-16.06.19:913][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.06.28-16.06.19:929][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
-[2018.06.28-16.06.19:944][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.06.28-16.06.19:960][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.06.28-16.06.19:990][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.06.28-16.06.19:990][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.06.28-16.06.20:048][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.06.28-16.06.20:052][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.06.28-16.06.20:106][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.06.28-16.06.20:121][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.06.28-16.06.20:136][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.06.28-16.06.20:152][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.06.28-16.06.20:168][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.06.28-16.06.20:196][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.06.28-16.06.20:197][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.06.28-16.06.20:395][  0]LogXGEController: Cleaning working directory: C:/Users/kang/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2018.06.28-16.06.20:395][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.06.28-16.06.20:395][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.06.28-16.06.20:395][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.06.28-16.06.24:004][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.06.28-16.06.24:383][  0]LogDerivedDataCache: Loaded boot cache 0.38s 74MB C:/Users/kang/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.06.28-16.06.24:384][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/kang/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
-[2018.06.28-16.06.24:384][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/kang/Documents/GitHub/ProjectT/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.06.28-16.06.24:384][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.06.28-16.06.24:384][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/kang/Documents/GitHub/ProjectT/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.06.28-16.06.24:384][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.06.28-16.06.24:402][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.06.28-16.06.24:416][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kang/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.06.28-16.06.24:416][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.06.28-16.06.24:416][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.06.28-16.06.24:429][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.06.28-16.06.24:429][  0]LogSlate: Using Freetype 2.6.0
-[2018.06.28-16.06.24:451][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.06.28-16.06.24:451][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.06.28-16.06.26:301][  0]LogAssetRegistry: FAssetRegistry took 0.0275 seconds to start up
-[2018.06.28-16.06.26:724][  0]LogInit: Selected Device Profile: [Windows]
-[2018.06.28-16.06.26:925][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.06.28-16.06.26:930][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.06.28-16.06.26:930][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.06.28-16.06.26:930][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.06.28-16.06.26:930][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.06.28-16.06.26:930][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.06.28-16.06.26:983][  0]LogNetVersion: ProjectT , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3122477835)
-[2018.06.28-16.06.27:623][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.123233 seconds
-[2018.06.28-16.06.27:630][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
-[2018.06.28-16.06.27:630][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
-[2018.06.28-16.06.27:630][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.06.28-16.06.52:707][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.06.28-16.06.52:751][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.06.28-16.06.53:295][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2018.06.28-16.06.53:295][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2018.06.28-16.06.53:327][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2018.06.28-16.06.53:356][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2018.06.28-16.06.54:158][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.06.28-16.06.54:449][  0]LogOcInput: OculusInput pre-init called
-[2018.06.28-16.06.54:660][  0]LogEngine: Initializing Engine...
-[2018.06.28-16.06.54:662][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.06.28-16.06.54:664][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.06.28-16.06.54:664][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.06.28-16.06.54:976][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.06.28-16.06.55:010][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.06.28-16.06.55:244][  0]LogInit: FAudioDevice initialized.
-[2018.06.28-16.06.55:544][  0]LogDerivedDataCache: Saved boot cache 0.30s 74MB C:/Users/kang/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.06.28-16.06.55:556][  0]LogInit: Texture streaming: Enabled
-[2018.06.28-16.06.55:581][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.06.28-16.06.55:600][  0]LogInit: Transaction tracking system initialized
-[2018.06.28-16.06.55:642][  0]BlueprintLog: New page: 에디터 로드
-[2018.06.28-16.06.55:766][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
-[2018.06.28-16.06.56:180][  0]LogConsoleResponse: Display: 
-[2018.06.28-16.06.56:536][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.06.28-16.06.56:536][  0]LogCook: Display: Mobile HDR setting 1
-[2018.06.28-16.06.56:536][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.06.28-16.06.56:536][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.06.28-16.06.56:536][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.06.28-16.06.56:806][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kang/Documents/GitHub/ProjectT/Content/' took 0.01s
-[2018.06.28-16.06.57:205][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2018.06.28-16.06.57:205][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.06.28-16.06.57:206][  0]LightingResults: New page: 라이팅 빌드
-[2018.06.28-16.06.57:210][  0]MapCheck: New page: 맵 체크
-[2018.06.28-16.06.57:210][  0]LightingResults: New page: 라이팅 빌드
-[2018.06.28-16.06.57:519][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2018.06.28-16.06.57:533][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.06.28-16.06.57:548][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.06.28-16.06.57:702][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 153.969ms.
-[2018.06.28-16.06.57:702][  0]LogFileHelpers: Loading map 'Template_Default' took 0.497
-[2018.06.28-16.06.57:829][  0]LogCollectionManager: Loaded 0 collections in 0.003457 seconds
-[2018.06.28-16.06.57:883][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kang/Documents/GitHub/ProjectT/Saved/Collections/' took 0.01s
-[2018.06.28-16.06.57:883][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kang/Documents/GitHub/ProjectT/Content/Developers/kang/Collections/' took 0.01s
-[2018.06.28-16.06.57:883][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kang/Documents/GitHub/ProjectT/Content/Collections/' took 0.01s
-[2018.06.28-16.06.57:883][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.06.28-16.06.57:893][  0]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 2452 classes and 558 folders.
-[2018.06.28-16.06.57:903][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.06.28-16.06.57:974][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.06.28-16.06.58:041][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2018.06.28-16.06.58:057][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0003 seconds. Added 2 classes and 3 folders.
-[2018.06.28-16.06.58:133][  0]LogSlate: Took 0.000528 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.06.28-16.06.58:138][  0]LogSlate: Took 0.004084 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
-[2018.06.28-16.06.58:144][  0]LogSlate: Took 0.004578 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
-[2018.06.28-16.06.58:146][  0]LogSlate: Took 0.001605 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.06.28-16.06.58:149][  0]LogSlate: Took 0.000404 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.06.28-16.06.58:299][  0]LogRenderer: Reallocating scene render targets to support 1024x924 Format 9 NumSamples 1 (Frame:1).
-[2018.06.28-16.06.58:709][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.06.28-16.06.58:709][  0]LogLoad: (Engine Initialization) Total time: 47.68 seconds
-[2018.06.28-16.06.58:709][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.06.28-16.06.58:730][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
-[2018.06.28-16.06.58:753][  0]LogContentStreaming: Texture pool size now 600 MB
-[2018.06.28-16.06.58:800][  1]LogAssetRegistry: Asset discovery search completed in 32.5213 seconds
-[2018.06.28-16.06.58:802][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.06.28-16.06.58:802][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000075 seconds (updated 0 objects)
-[2018.06.28-16.07.01:473][142]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.28-16.07.01:558][146]LogSlate: Took 0.000466 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.06.28-16.07.06:595][424]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
-[2018.06.28-16.07.06:622][424]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.06.28-16.07.06:623][424]PIE: New page: PIE 세션: Untitled_1 (2018. 6. 29. 오전 10:07:06)
-[2018.06.28-16.07.06:623][424]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
-[2018.06.28-16.07.06:628][424]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004912s)
-[2018.06.28-16.07.06:629][424]LogAIModule: Creating AISystem for world Untitled_1
-[2018.06.28-16.07.06:630][424]LogPlayLevel: PIE: World Init took: (0.001572s)
-[2018.06.28-16.07.06:630][424]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.006840s)
-[2018.06.28-16.07.06:695][424]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.06.28-16.07.06:741][424]LogInit: FAudioDevice initialized.
-[2018.06.28-16.07.06:879][424]LogLoad: Game class is 'GameModeBase'
-[2018.06.28-16.07.06:882][424]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.06.29-01.07.06
-[2018.06.28-16.07.06:882][424]LogWorld: Bringing up level for play took: 0.001290
-[2018.06.28-16.07.06:896][424]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
-[2018.06.28-16.07.06:910][424]PIE: /Temp/UEDPIE_0_Untitled_1 에 대한 에디터에서 플레이 시작 시간: -0.005
-[2018.06.28-16.07.10:418][624]LogSlate: Window 'ProjectT 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
-[2018.06.28-16.07.17:743][ 21]LogSlate: Took 0.001438 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.06.28-16.07.20:939][207]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2018.06.28-16.07.20:959][207]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028b4e82f0e8, Size=56, Default__Test_Character_AB_C Function /Game/PlayerCharacter/Blueprints/Test_Character_AB.Test_Character_AB_C:ExecuteUbergraph_Test_Character_AB
-[2018.06.28-16.07.20:963][207]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000028b4e82f0e8, Size=56
-[2018.06.28-16.07.20:963][207]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028b4e82f0e8, Size=56, Default__Test_Character_AB_C Function /Engine/Transient.REINST_Test_Character_AB_C_0:ExecuteUbergraph_Test_Character_AB
-[2018.06.28-16.07.20:967][207]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028b4e82e160, Size=56, Default__Test_Character_AB_C Function /Game/PlayerCharacter/Blueprints/Test_Character_AB.Test_Character_AB_C:ExecuteUbergraph_Test_Character_AB
-[2018.06.28-16.07.20:972][207]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028b1e479c60, Size=152, Default__CB_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.CB_Character_C:ExecuteUbergraph_CB_Character
-[2018.06.28-16.07.20:979][207]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000028b1e479c60, Size=152
-[2018.06.28-16.07.20:979][207]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028b02cb3100, Size=152, Default__CB_Character_C Function /Engine/Transient.REINST_CB_Character_C_6:ExecuteUbergraph_CB_Character
-[2018.06.28-16.07.20:984][207]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028b02cb2160, Size=152, Default__CB_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.CB_Character_C:ExecuteUbergraph_CB_Character
-[2018.06.28-16.07.21:006][207]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028b4e747c40, Size=152, Default__Test_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.CB_Character_C:ExecuteUbergraph_CB_Character
-[2018.06.28-16.07.21:009][207]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000028b4e747c40, Size=152
-[2018.06.28-16.07.21:009][207]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028b4e747600, Size=152, Default__Test_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.CB_Character_C:ExecuteUbergraph_CB_Character
-[2018.06.28-16.07.21:009][207]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028b4e746d40, Size=152, Default__Test_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.CB_Character_C:ExecuteUbergraph_CB_Character
-[2018.06.28-16.07.21:018][207]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028b2591b1f0, Size=40, Default__PC_PlayerController_C Function /Game/PlayerGameMode/PC_PlayerController.PC_PlayerController_C:ExecuteUbergraph_PC_PlayerController
-[2018.06.28-16.07.21:020][207]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000028b2591b1f0, Size=40
-[2018.06.28-16.07.21:020][207]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028b2591b1f0, Size=40, Default__PC_PlayerController_C Function /Engine/Transient.REINST_PC_PlayerController_C_9:ExecuteUbergraph_PC_PlayerController
-[2018.06.28-16.07.21:022][207]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028b2591ae08, Size=40, Default__PC_PlayerController_C Function /Game/PlayerGameMode/PC_PlayerController.PC_PlayerController_C:ExecuteUbergraph_PC_PlayerController
-[2018.06.28-16.07.21:177][207]LogSkeletalMesh: Skeletal Mesh found in DDC [24.390802ms] /Game/PlayerCharacter/Model/TestModel/Great_Sword_Idle.Great_Sword_Idle
-[2018.06.28-16.07.26:254][456]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2018.06.28-16.07.27:210][457]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.ProjectT
-[2018.06.28-16.07.27:210][457]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
-[2018.06.28-16.07.27:210][457]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.19
-[2018.06.28-16.07.27:210][457]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
-[2018.06.28-16.07.27:210][457]LogTemp: BranchPath = DESKTOP-7A32EGI/C/Program Files/Epic Games/UE_4.19/Engine/Binaries --- GameBranchPath = DESKTOP-7A32EGI/C/Program Files/Epic Games/UE_4.19/Engine/Binaries
-[2018.06.28-16.07.27:222][457]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\kang\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2018.06.28-16.07.30:652][623]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2018.06.28-16.07.32:989][750]LogSlate: Window '프로젝트 세팅' being destroyed
-[2018.06.28-16.07.32:996][750]LogSlate: Window '프로젝트 세팅' being destroyed
-[2018.06.28-16.07.33:791][790]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
-[2018.06.28-16.07.33:810][790]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.06.28-16.07.33:810][790]PIE: New page: PIE 세션: Untitled_1 (2018. 6. 29. 오전 10:07:33)
-[2018.06.28-16.07.33:810][790]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
-[2018.06.28-16.07.33:813][790]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002967s)
-[2018.06.28-16.07.33:814][790]LogAIModule: Creating AISystem for world Untitled_1
-[2018.06.28-16.07.33:814][790]LogPlayLevel: PIE: World Init took: (0.001328s)
-[2018.06.28-16.07.33:815][790]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.004533s)
-[2018.06.28-16.07.33:830][790]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000028b2591b1f0, Size=40
-[2018.06.28-16.07.33:830][790]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000028b4e747600, Size=152
-[2018.06.28-16.07.33:830][790]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000028b02cb3100, Size=152
-[2018.06.28-16.07.33:830][790]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000028b4e82f0e8, Size=56
-[2018.06.28-16.07.33:862][790]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.06.28-16.07.33:895][790]LogInit: FAudioDevice initialized.
-[2018.06.28-16.07.33:972][790]LogLoad: Game class is 'GM_PlayerGameMode_C'
-[2018.06.28-16.07.33:974][790]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.06.29-01.07.33
-[2018.06.28-16.07.33:975][790]LogWorld: Bringing up level for play took: 0.001123
-[2018.06.28-16.07.33:986][790]PIE: /Temp/UEDPIE_0_Untitled_1 에 대한 에디터에서 플레이 시작 시간: 1.07
-[2018.06.28-16.07.45:614][475]LogSlate: Window 'ProjectT 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
-[2018.06.28-16.08.02:256][285]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
-[2018.06.28-16.08.02:568][285]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028b5798b2e8, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
-[2018.06.28-16.08.02:569][285]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028b5798b2b0, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
-[2018.06.28-16.08.03:085][285]LogSlate: Took 0.000420 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.06.28-16.08.05:090][367]LogSlate: Took 0.000476 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.06.28-16.08.24:401][198]BlueprintLog: New page: CB_Character 컴파일
-[2018.06.28-16.08.24:440][198]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000028b02cb2160, Size=152
-[2018.06.28-16.08.24:440][198]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028b808fea20, Size=152, Default__CB_Character_C Function /Engine/Transient.REINST_CB_Character_C_29:ExecuteUbergraph_CB_Character
-[2018.06.28-16.08.24:441][198]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000028b4e746d40, Size=152
-[2018.06.28-16.08.24:441][198]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028b808fe7a0, Size=152, Default__Test_Character_C Function /Engine/Transient.REINST_CB_Character_C_29:ExecuteUbergraph_CB_Character
-[2018.06.28-16.08.24:447][198]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028b808fd620, Size=152, Default__CB_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.CB_Character_C:ExecuteUbergraph_CB_Character
-[2018.06.28-16.08.24:448][198]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028b80e5b920, Size=152, Default__Test_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.CB_Character_C:ExecuteUbergraph_CB_Character
-[2018.06.28-16.08.25:312][212]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
-[2018.06.28-16.08.25:330][212]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.06.28-16.08.25:330][212]PIE: New page: PIE 세션: Untitled_1 (2018. 6. 29. 오전 10:08:25)
-[2018.06.28-16.08.25:330][212]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
-[2018.06.28-16.08.25:332][212]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002177s)
-[2018.06.28-16.08.25:333][212]LogAIModule: Creating AISystem for world Untitled_1
-[2018.06.28-16.08.25:334][212]LogPlayLevel: PIE: World Init took: (0.000995s)
-[2018.06.28-16.08.25:334][212]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003373s)
-[2018.06.28-16.08.25:355][212]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000028b808fe7a0, Size=152
-[2018.06.28-16.08.25:378][212]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.06.28-16.08.25:403][212]LogInit: FAudioDevice initialized.
-[2018.06.28-16.08.25:483][212]LogLoad: Game class is 'GM_PlayerGameMode_C'
-[2018.06.28-16.08.25:484][212]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.06.29-01.08.25
-[2018.06.28-16.08.25:485][212]LogWorld: Bringing up level for play took: 0.000939
-[2018.06.28-16.08.25:498][212]PIE: /Temp/UEDPIE_0_Untitled_1 에 대한 에디터에서 플레이 시작 시간: 0.583
-[2018.06.28-16.08.27:845][283]LogSlate: Window 'ProjectT 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
-[2018.06.28-16.08.49:898][253]BlueprintLog: New page: CB_Character 컴파일
-[2018.06.28-16.08.49:932][253]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000028b808fd620, Size=152
-[2018.06.28-16.08.49:932][253]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028b83549b20, Size=152, CB_Character_C_41 Function /Engine/Transient.REINST_CB_Character_C_37:ExecuteUbergraph_CB_Character
-[2018.06.28-16.08.49:932][253]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000028b80e5b920, Size=152
-[2018.06.28-16.08.49:932][253]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028b835496c0, Size=152, Default__Test_Character_C Function /Engine/Transient.REINST_CB_Character_C_37:ExecuteUbergraph_CB_Character
-[2018.06.28-16.08.49:939][253]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028b80e59800, Size=152, Default__CB_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.CB_Character_C:ExecuteUbergraph_CB_Character
-[2018.06.28-16.08.49:940][253]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028b80e59c60, Size=152, Default__Test_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.CB_Character_C:ExecuteUbergraph_CB_Character
-[2018.06.28-16.08.50:718][274]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
-[2018.06.28-16.08.50:737][274]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.06.28-16.08.50:738][274]PIE: New page: PIE 세션: Untitled_1 (2018. 6. 29. 오전 10:08:50)
-[2018.06.28-16.08.50:738][274]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
-[2018.06.28-16.08.50:740][274]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002203s)
-[2018.06.28-16.08.50:741][274]LogAIModule: Creating AISystem for world Untitled_1
-[2018.06.28-16.08.50:742][274]LogPlayLevel: PIE: World Init took: (0.001203s)
-[2018.06.28-16.08.50:742][274]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003616s)
-[2018.06.28-16.08.50:760][274]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000028b83549b20, Size=152
-[2018.06.28-16.08.50:760][274]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000028b835496c0, Size=152
-[2018.06.28-16.08.50:783][274]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.06.28-16.08.50:808][274]LogInit: FAudioDevice initialized.
-[2018.06.28-16.08.50:885][274]LogLoad: Game class is 'GM_PlayerGameMode_C'
-[2018.06.28-16.08.50:886][274]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.06.29-01.08.50
-[2018.06.28-16.08.50:887][274]LogWorld: Bringing up level for play took: 0.000925
-[2018.06.28-16.08.50:901][274]PIE: /Temp/UEDPIE_0_Untitled_1 에 대한 에디터에서 플레이 시작 시간: -0.014
-[2018.06.28-16.08.59:579][666]LogSlate: Window 'ProjectT 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
-[2018.06.28-16.09.17:616][577]BlueprintLog: New page: CB_Character 컴파일
-[2018.06.28-16.09.17:646][577]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000028b80e59800, Size=152
-[2018.06.28-16.09.17:646][577]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028b851d1b20, Size=152, CB_Character_C_58 Function /Engine/Transient.REINST_CB_Character_C_45:ExecuteUbergraph_CB_Character
-[2018.06.28-16.09.17:646][577]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000028b80e59c60, Size=152
-[2018.06.28-16.09.17:646][577]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028b851d18a0, Size=152, Default__Test_Character_C Function /Engine/Transient.REINST_CB_Character_C_45:ExecuteUbergraph_CB_Character
-[2018.06.28-16.09.17:652][577]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028b80e584a0, Size=152, Default__CB_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.CB_Character_C:ExecuteUbergraph_CB_Character
-[2018.06.28-16.09.17:653][577]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028b654e7ec0, Size=152, Default__Test_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.CB_Character_C:ExecuteUbergraph_CB_Character
-[2018.06.28-16.09.18:639][600]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
-[2018.06.28-16.09.18:659][600]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.06.28-16.09.18:659][600]PIE: New page: PIE 세션: Untitled_1 (2018. 6. 29. 오전 10:09:18)
-[2018.06.28-16.09.18:660][600]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
-[2018.06.28-16.09.18:662][600]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002534s)
-[2018.06.28-16.09.18:663][600]LogAIModule: Creating AISystem for world Untitled_1
-[2018.06.28-16.09.18:663][600]LogPlayLevel: PIE: World Init took: (0.001320s)
-[2018.06.28-16.09.18:664][600]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.004037s)
-[2018.06.28-16.09.18:705][600]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.06.28-16.09.18:730][600]LogInit: FAudioDevice initialized.
-[2018.06.28-16.09.18:805][600]LogLoad: Game class is 'GM_PlayerGameMode_C'
-[2018.06.28-16.09.18:806][600]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.06.29-01.09.18
-[2018.06.28-16.09.18:806][600]LogWorld: Bringing up level for play took: 0.001074
-[2018.06.28-16.09.18:818][600]PIE: /Temp/UEDPIE_0_Untitled_1 에 대한 에디터에서 플레이 시작 시간: -0.097
-[2018.06.28-16.09.28:048][975]LogSlate: Window 'ProjectT 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
-[2018.06.28-16.10.39:869][717]BlueprintLog: New page: CB_Character 컴파일
-[2018.06.28-16.10.39:899][717]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000028b80e584a0, Size=152
-[2018.06.28-16.10.39:899][717]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028b6262a020, Size=152, CB_Character_C_67 Function /Engine/Transient.REINST_CB_Character_C_53:ExecuteUbergraph_CB_Character
-[2018.06.28-16.10.39:899][717]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000028b654e7ec0, Size=152
-[2018.06.28-16.10.39:899][717]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028b6262aac0, Size=152, Test_Character_C_26 Function /Engine/Transient.REINST_CB_Character_C_53:ExecuteUbergraph_CB_Character
-[2018.06.28-16.10.39:906][717]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028b6d25e8e0, Size=160, Default__CB_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.CB_Character_C:ExecuteUbergraph_CB_Character
-[2018.06.28-16.10.39:907][717]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028b6497aa20, Size=160, Default__Test_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.CB_Character_C:ExecuteUbergraph_CB_Character
-[2018.06.28-16.10.40:893][750]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
-[2018.06.28-16.10.40:913][750]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.06.28-16.10.40:913][750]PIE: New page: PIE 세션: Untitled_1 (2018. 6. 29. 오전 10:10:40)
-[2018.06.28-16.10.40:913][750]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
-[2018.06.28-16.10.40:916][750]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003028s)
-[2018.06.28-16.10.40:918][750]LogAIModule: Creating AISystem for world Untitled_1
-[2018.06.28-16.10.40:918][750]LogPlayLevel: PIE: World Init took: (0.001487s)
-[2018.06.28-16.10.40:918][750]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.004773s)
-[2018.06.28-16.10.40:943][750]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000028b6262aac0, Size=152
-[2018.06.28-16.10.40:943][750]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000028b6262a020, Size=152
-[2018.06.28-16.10.40:970][750]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.06.28-16.10.41:001][750]LogInit: FAudioDevice initialized.
-[2018.06.28-16.10.41:080][750]LogLoad: Game class is 'GM_PlayerGameMode_C'
-[2018.06.28-16.10.41:082][750]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.06.29-01.10.41
-[2018.06.28-16.10.41:082][750]LogWorld: Bringing up level for play took: 0.000989
-[2018.06.28-16.10.41:096][750]PIE: /Temp/UEDPIE_0_Untitled_1 에 대한 에디터에서 플레이 시작 시간: 0.181
-[2018.06.28-16.10.47:083][  7]LogSlate: Window 'ProjectT 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
-[2018.06.28-16.10.59:060][617]BlueprintLog: New page: CB_Character 컴파일
-[2018.06.28-16.10.59:091][617]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000028b6d25e8e0, Size=160
-[2018.06.28-16.10.59:091][617]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028b64825260, Size=160, CB_Character_C_76 Function /Engine/Transient.REINST_CB_Character_C_61:ExecuteUbergraph_CB_Character
-[2018.06.28-16.10.59:091][617]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000028b6497aa20, Size=160
-[2018.06.28-16.10.59:091][617]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028b64825440, Size=160, Test_Character_C_27 Function /Engine/Transient.REINST_CB_Character_C_61:ExecuteUbergraph_CB_Character
-[2018.06.28-16.10.59:097][617]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028b3f897580, Size=168, Default__CB_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.CB_Character_C:ExecuteUbergraph_CB_Character
-[2018.06.28-16.10.59:098][617]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028b4e0f6e00, Size=168, Default__Test_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.CB_Character_C:ExecuteUbergraph_CB_Character
-[2018.06.28-16.10.59:781][633]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
-[2018.06.28-16.10.59:801][633]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.06.28-16.10.59:801][633]PIE: New page: PIE 세션: Untitled_1 (2018. 6. 29. 오전 10:10:59)
-[2018.06.28-16.10.59:801][633]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
-[2018.06.28-16.10.59:805][633]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003973s)
-[2018.06.28-16.10.59:806][633]LogAIModule: Creating AISystem for world Untitled_1
-[2018.06.28-16.10.59:807][633]LogPlayLevel: PIE: World Init took: (0.001339s)
-[2018.06.28-16.10.59:807][633]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.005497s)
-[2018.06.28-16.10.59:830][633]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000028b64825440, Size=160
-[2018.06.28-16.10.59:830][633]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000028b64825260, Size=160
-[2018.06.28-16.10.59:858][633]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.06.28-16.10.59:890][633]LogInit: FAudioDevice initialized.
-[2018.06.28-16.10.59:977][633]LogLoad: Game class is 'GM_PlayerGameMode_C'
-[2018.06.28-16.10.59:978][633]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.06.29-01.10.59
-[2018.06.28-16.10.59:979][633]LogWorld: Bringing up level for play took: 0.000945
-[2018.06.28-16.10.59:992][633]PIE: /Temp/UEDPIE_0_Untitled_1 에 대한 에디터에서 플레이 시작 시간: 1.077
-[2018.06.28-16.11.29:321][983]LogSlate: Window 'ProjectT 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
-[2018.06.28-16.14.20:239][877]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
-[2018.06.28-16.14.20:262][877]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.06.28-16.14.20:262][877]PIE: New page: PIE 세션: Untitled_1 (2018. 6. 29. 오전 10:14:20)
-[2018.06.28-16.14.20:262][877]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
-[2018.06.28-16.14.20:266][877]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003294s)
-[2018.06.28-16.14.20:267][877]LogAIModule: Creating AISystem for world Untitled_1
-[2018.06.28-16.14.20:267][877]LogPlayLevel: PIE: World Init took: (0.001412s)
-[2018.06.28-16.14.20:267][877]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.004973s)
-[2018.06.28-16.14.20:322][877]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.06.28-16.14.20:354][877]LogInit: FAudioDevice initialized.
-[2018.06.28-16.14.20:445][877]LogLoad: Game class is 'GM_PlayerGameMode_C'
-[2018.06.28-16.14.20:447][877]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.06.29-01.14.20
-[2018.06.28-16.14.20:447][877]LogWorld: Bringing up level for play took: 0.001196
-[2018.06.28-16.14.20:465][877]PIE: /Temp/UEDPIE_0_Untitled_1 에 대한 에디터에서 플레이 시작 시간: -0.45
-[2018.06.28-16.14.25:930][179]LogSlate: Window 'ProjectT 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
-[2018.06.28-16.14.55:221][325]BlueprintLog: New page: CB_Character 컴파일
-[2018.06.28-16.14.55:252][325]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000028b3f897580, Size=168
-[2018.06.28-16.14.55:252][325]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028b5b678b80, Size=168, CB_Character_C_109 Function /Engine/Transient.REINST_CB_Character_C_69:ExecuteUbergraph_CB_Character
-[2018.06.28-16.14.55:253][325]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000028b4e0f6e00, Size=168
-[2018.06.28-16.14.55:253][325]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028b5b67a800, Size=168, Test_Character_C_45 Function /Engine/Transient.REINST_CB_Character_C_69:ExecuteUbergraph_CB_Character
-[2018.06.28-16.14.55:259][325]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028b02ce8b80, Size=168, Default__CB_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.CB_Character_C:ExecuteUbergraph_CB_Character
-[2018.06.28-16.14.55:261][325]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028b02ce9480, Size=168, Default__Test_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.CB_Character_C:ExecuteUbergraph_CB_Character
-[2018.06.28-16.14.56:306][357]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
-[2018.06.28-16.14.56:324][357]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.06.28-16.14.56:324][357]PIE: New page: PIE 세션: Untitled_1 (2018. 6. 29. 오전 10:14:56)
-[2018.06.28-16.14.56:324][357]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
-[2018.06.28-16.14.56:327][357]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002395s)
-[2018.06.28-16.14.56:328][357]LogAIModule: Creating AISystem for world Untitled_1
-[2018.06.28-16.14.56:328][357]LogPlayLevel: PIE: World Init took: (0.001101s)
-[2018.06.28-16.14.56:328][357]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003700s)
-[2018.06.28-16.14.56:374][357]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.06.28-16.14.56:403][357]LogInit: FAudioDevice initialized.
-[2018.06.28-16.14.56:474][357]LogLoad: Game class is 'GM_PlayerGameMode_C'
-[2018.06.28-16.14.56:476][357]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.06.29-01.14.56
-[2018.06.28-16.14.56:476][357]LogWorld: Bringing up level for play took: 0.000962
-[2018.06.28-16.14.56:489][357]PIE: /Temp/UEDPIE_0_Untitled_1 에 대한 에디터에서 플레이 시작 시간: -0.426
-[2018.06.28-16.14.59:478][468]LogSlate: Window 'ProjectT 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
-[2018.06.28-16.17.07:795][303]BlueprintLog: New page: CB_Character 컴파일
-[2018.06.28-16.17.07:823][303]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000028b02ce8b80, Size=168
-[2018.06.28-16.17.07:823][303]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028b5c88e740, Size=168, CB_Character_C_130 Function /Engine/Transient.REINST_CB_Character_C_77:ExecuteUbergraph_CB_Character
-[2018.06.28-16.17.07:823][303]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000028b02ce9480, Size=168
-[2018.06.28-16.17.07:823][303]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028b5c88ebc0, Size=168, Test_Character_C_59 Function /Engine/Transient.REINST_CB_Character_C_77:ExecuteUbergraph_CB_Character
-[2018.06.28-16.17.07:829][303]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028b5c88cd00, Size=168, Default__CB_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.CB_Character_C:ExecuteUbergraph_CB_Character
-[2018.06.28-16.17.07:830][303]LogUObjectGlobals: Created PersistentFrame Addr=0x0000028b5c88fe80, Size=168, Default__Test_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.CB_Character_C:ExecuteUbergraph_CB_Character
-[2018.06.28-16.17.08:604][321]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
-[2018.06.28-16.17.08:630][321]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.06.28-16.17.08:630][321]PIE: New page: PIE 세션: Untitled_1 (2018. 6. 29. 오전 10:17:08)
-[2018.06.28-16.17.08:630][321]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
-[2018.06.28-16.17.08:634][321]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003597s)
-[2018.06.28-16.17.08:636][321]LogAIModule: Creating AISystem for world Untitled_1
-[2018.06.28-16.17.08:636][321]LogPlayLevel: PIE: World Init took: (0.001991s)
-[2018.06.28-16.17.08:636][321]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.005840s)
-[2018.06.28-16.17.08:694][321]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.06.28-16.17.08:726][321]LogInit: FAudioDevice initialized.
-[2018.06.28-16.17.08:818][321]LogLoad: Game class is 'GM_PlayerGameMode_C'
-[2018.06.28-16.17.08:822][321]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.06.29-01.17.08
-[2018.06.28-16.17.08:822][321]LogWorld: Bringing up level for play took: 0.000994
-[2018.06.28-16.17.08:835][321]PIE: /Temp/UEDPIE_0_Untitled_1 에 대한 에디터에서 플레이 시작 시간: -0.081
-[2018.06.28-16.17.30:680][196]LogSlate: Window 'ProjectT 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
-[2018.06.28-16.17.32:064][239]LogSavePackage: Save=50.31ms
-[2018.06.28-16.17.32:064][239]LogSavePackage: Moving '../../../../../../Users/kang/Documents/GitHub/ProjectT/Saved/CB_Character398860B2442CB08899C0FBBDA9D8F5E9.tmp' to '../../../../../../Users/kang/Documents/GitHub/ProjectT/Content/PlayerCharacter/Blueprints/CB_Character.uasset'
-[2018.06.28-16.17.32:073][239]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/kang/Documents/GitHub/ProjectT/Content/PlayerCharacter/Blueprints/CB_Character.uasset
-[2018.06.28-16.17.44:950][871]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
-[2018.06.28-16.17.44:977][871]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.06.28-16.17.44:978][871]PIE: New page: PIE 세션: Untitled_1 (2018. 6. 29. 오전 10:17:44)
-[2018.06.28-16.17.44:978][871]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
-[2018.06.28-16.17.44:982][871]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004619s)
-[2018.06.28-16.17.44:983][871]LogAIModule: Creating AISystem for world Untitled_1
-[2018.06.28-16.17.44:984][871]LogPlayLevel: PIE: World Init took: (0.001671s)
-[2018.06.28-16.17.44:985][871]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.007324s)
-[2018.06.28-16.17.45:037][871]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.06.28-16.17.45:065][871]LogInit: FAudioDevice initialized.
-[2018.06.28-16.17.45:146][871]LogLoad: Game class is 'GM_PlayerGameMode_C'
-[2018.06.28-16.17.45:148][871]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.06.29-01.17.45
-[2018.06.28-16.17.45:148][871]LogWorld: Bringing up level for play took: 0.001074
-[2018.06.28-16.17.45:165][871]PIE: /Temp/UEDPIE_0_Untitled_1 에 대한 에디터에서 플레이 시작 시간: 0.249
-[2018.06.28-16.17.55:877][287]LogSlate: Window 'ProjectT 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
-[2018.06.28-16.18.03:123][632]LogSlate: Window 'CB_Character' being destroyed
-[2018.06.28-16.18.03:128][632]LogSlate: Window 'CB_Character' being destroyed
+[2018.07.01-15.21.07:881][  0]LogInit: Selected Device Profile: [Windows]
+[2018.07.01-15.21.07:881][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.07.01-15.21.07:899][  0]LogInit: Computer: DESKTOP-7A32EGI
+[2018.07.01-15.21.07:899][  0]LogInit: User: kang
+[2018.07.01-15.21.07:899][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.07.01-15.21.07:899][  0]LogInit: High frequency timer resolution =2.533209 MHz
+[2018.07.01-15.21.07:899][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.07.01-15.21.07:899][  0]LogMemory: Platform Memory Stats for Windows
+[2018.07.01-15.21.07:899][  0]LogMemory: Process Physical Memory: 273.29 MB used, 273.29 MB peak
+[2018.07.01-15.21.07:899][  0]LogMemory: Process Virtual Memory: 270.09 MB used, 270.09 MB peak
+[2018.07.01-15.21.07:899][  0]LogMemory: Physical Memory: 2897.76 MB used,  5202.01 MB free, 8099.77 MB total
+[2018.07.01-15.21.07:899][  0]LogMemory: Virtual Memory: 4786.06 MB used,  5202.01 MB free, 134217728.00 MB total
+[2018.07.01-15.21.07:944][  0]LogInit: Using OS detected language (ko-KR).
+[2018.07.01-15.21.07:944][  0]LogInit: Using OS detected locale (ko-KR).
+[2018.07.01-15.21.07:953][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2018.07.01-15.21.08:414][  0]LogStreaming: Display: Took  0.471s to EndInitTextLocalization.
+[2018.07.01-15.21.08:414][  0]LogInit: Setting process to per monitor DPI aware
+[2018.07.01-15.21.08:460][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.07.01-15.21.08:461][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.07.01-15.21.08:963][  0]LogD3D11RHI: D3D11 adapters:
+[2018.07.01-15.21.09:213][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 840M' (Feature Level 11_0)
+[2018.07.01-15.21.09:213][  0]LogD3D11RHI:       2019/0/4049 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.07.01-15.21.09:222][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2018.07.01-15.21.09:222][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.07.01-15.21.09:225][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.07.01-15.21.09:225][  0]LogD3D11RHI:       0/0/4049 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.07.01-15.21.09:225][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.07.01-15.21.09:242][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.07.01-15.21.09:242][  0]LogD3D11RHI:     GPU DeviceId: 0x1341 (for the marketing name, search the web for "GPU Device Id")
+[2018.07.01-15.21.09:242][  0]LogWindows: EnumDisplayDevices:
+[2018.07.01-15.21.09:242][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2018.07.01-15.21.09:243][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2018.07.01-15.21.09:243][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2018.07.01-15.21.09:244][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.07.01-15.21.09:244][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 840M
+[2018.07.01-15.21.09:244][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.07.01-15.21.09:244][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.07.01-15.21.09:244][  0]LogRHI: Texture pool is 1413 MB (70% of 2019 MB)
+[2018.07.01-15.21.09:265][  0]LogD3D11RHI: [Aftermath] Aftermath enabled but failed to initialize
+[2018.07.01-15.21.09:265][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.07.01-15.21.09:265][  0]LogD3D11RHI: Async texture creation enabled
+[2018.07.01-15.21.09:282][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.07.01-15.21.09:283][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (../../../../../../Users/kang/Documents/GitHub/ProjectT/Intermediate/Shaders/WorkingDirectory/11320/).
+[2018.07.01-15.21.09:283][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kang/AppData/Local/Temp/UnrealShaderWorkingDir/8DF4600F4ADD433573A6A9ABDC6D6C0A/'.
+[2018.07.01-15.21.09:692][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.07.01-15.21.09:710][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.07.01-15.21.09:728][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.07.01-15.21.09:746][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.07.01-15.21.09:764][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.07.01-15.21.09:781][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.07.01-15.21.09:799][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.07.01-15.21.09:817][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.07.01-15.21.09:826][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.07.01-15.21.09:844][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.07.01-15.21.09:860][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.07.01-15.21.09:877][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.07.01-15.21.09:893][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.07.01-15.21.09:909][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.07.01-15.21.09:925][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.07.01-15.21.09:962][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.07.01-15.21.09:962][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.07.01-15.21.09:981][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.07.01-15.21.09:985][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.07.01-15.21.10:031][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.07.01-15.21.10:046][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.07.01-15.21.10:061][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.07.01-15.21.10:076][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.07.01-15.21.10:092][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.07.01-15.21.10:110][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.07.01-15.21.10:110][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.07.01-15.21.10:300][  0]LogXGEController: Cleaning working directory: C:/Users/kang/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.07.01-15.21.10:301][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.07.01-15.21.10:301][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.07.01-15.21.10:301][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.07.01-15.21.11:360][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.07.01-15.21.11:432][  0]LogDerivedDataCache: Loaded boot cache 0.07s 74MB C:/Users/kang/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.07.01-15.21.11:432][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/kang/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.07.01-15.21.11:433][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/kang/Documents/GitHub/ProjectT/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.07.01-15.21.11:433][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.07.01-15.21.11:433][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/kang/Documents/GitHub/ProjectT/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.07.01-15.21.11:433][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.07.01-15.21.11:451][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.07.01-15.21.11:465][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kang/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.07.01-15.21.11:465][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.07.01-15.21.11:465][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.07.01-15.21.11:478][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.07.01-15.21.11:478][  0]LogSlate: Using Freetype 2.6.0
+[2018.07.01-15.21.11:479][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.01-15.21.11:479][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.01-15.21.11:701][  0]LogAssetRegistry: FAssetRegistry took 0.0274 seconds to start up
+[2018.07.01-15.21.12:114][  0]LogInit: Selected Device Profile: [Windows]
+[2018.07.01-15.21.12:319][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.07.01-15.21.12:323][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.07.01-15.21.12:324][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.07.01-15.21.12:324][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.07.01-15.21.12:324][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.07.01-15.21.12:324][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.07.01-15.21.12:369][  0]LogNetVersion: ProjectT , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3122477835)
+[2018.07.01-15.21.12:981][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.119416 seconds
+[2018.07.01-15.21.12:988][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.07.01-15.21.12:988][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
+[2018.07.01-15.21.12:988][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.07.01-15.21.15:297][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.07.01-15.21.15:337][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.07.01-15.21.15:862][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.07.01-15.21.15:862][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.07.01-15.21.15:892][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.07.01-15.21.15:922][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.07.01-15.21.16:676][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.07.01-15.21.16:927][  0]LogOcInput: OculusInput pre-init called
+[2018.07.01-15.21.17:087][  0]LogEngine: Initializing Engine...
+[2018.07.01-15.21.17:090][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.07.01-15.21.17:091][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.07.01-15.21.17:091][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.07.01-15.21.17:373][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.07.01-15.21.17:395][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.01-15.21.17:480][  0]LogInit: FAudioDevice initialized.
+[2018.07.01-15.21.17:734][  0]LogDerivedDataCache: Saved boot cache 0.25s 74MB C:/Users/kang/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.07.01-15.21.17:747][  0]LogInit: Texture streaming: Enabled
+[2018.07.01-15.21.17:774][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.07.01-15.21.17:799][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2018.07.01-15.21.18:050][  0]LogInit: Transaction tracking system initialized
+[2018.07.01-15.21.18:088][  0]BlueprintLog: New page: 에디터 로드
+[2018.07.01-15.21.18:218][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2018.07.01-15.21.18:655][  0]LogConsoleResponse: Display: 
+[2018.07.01-15.21.18:895][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.07.01-15.21.18:895][  0]LogCook: Display: Mobile HDR setting 1
+[2018.07.01-15.21.18:895][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.07.01-15.21.18:895][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.07.01-15.21.18:895][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.07.01-15.21.19:504][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kang/Documents/GitHub/ProjectT/Content/' took 0.01s
+[2018.07.01-15.21.19:504][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2018.07.01-15.21.19:504][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.07.01-15.21.19:505][  0]LightingResults: New page: 라이팅 빌드
+[2018.07.01-15.21.19:509][  0]MapCheck: New page: 맵 체크
+[2018.07.01-15.21.19:509][  0]LightingResults: New page: 라이팅 빌드
+[2018.07.01-15.21.19:740][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.07.01-15.21.19:755][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.07.01-15.21.19:774][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.07.01-15.21.19:948][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 173.951ms.
+[2018.07.01-15.21.19:948][  0]LogFileHelpers: Loading map 'Template_Default' took 0.444
+[2018.07.01-15.21.20:050][  0]LogCollectionManager: Loaded 0 collections in 0.002245 seconds
+[2018.07.01-15.21.20:097][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kang/Documents/GitHub/ProjectT/Saved/Collections/' took 0.01s
+[2018.07.01-15.21.20:097][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kang/Documents/GitHub/ProjectT/Content/Developers/kang/Collections/' took 0.01s
+[2018.07.01-15.21.20:097][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kang/Documents/GitHub/ProjectT/Content/Collections/' took 0.01s
+[2018.07.01-15.21.20:097][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.07.01-15.21.20:107][  0]LogContentBrowser: Native class hierarchy populated in 0.0100 seconds. Added 2452 classes and 558 folders.
+[2018.07.01-15.21.20:117][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.07.01-15.21.20:190][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.07.01-15.21.20:252][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.07.01-15.21.20:266][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0003 seconds. Added 2 classes and 3 folders.
+[2018.07.01-15.21.20:334][  0]LogSlate: Took 0.000439 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.07.01-15.21.20:339][  0]LogSlate: Took 0.003492 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2018.07.01-15.21.20:343][  0]LogSlate: Took 0.003548 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2018.07.01-15.21.20:344][  0]LogSlate: Took 0.000328 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.07.01-15.21.20:347][  0]LogSlate: Took 0.000927 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.07.01-15.21.20:474][  0]LogRenderer: Reallocating scene render targets to support 1024x924 Format 9 NumSamples 1 (Frame:1).
+[2018.07.01-15.21.20:690][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.07.01-15.21.20:690][  0]LogLoad: (Engine Initialization) Total time: 16.05 seconds
+[2018.07.01-15.21.20:690][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.07.01-15.21.20:728][  0]LogContentStreaming: Texture pool size now 600 MB
+[2018.07.01-15.21.20:779][  1]LogAssetRegistry: Asset discovery search completed in 9.1004 seconds
+[2018.07.01-15.21.20:780][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.07.01-15.21.20:780][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000058 seconds (updated 0 objects)
+[2018.07.01-15.21.24:763][212]LogSlate: Took 0.000470 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.07.01-15.21.29:830][486]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.01-15.22.37:842][221]LogUObjectGlobals: Created PersistentFrame Addr=0x000002133cfd87c0, Size=168, Default__CB_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.CB_Character_C:ExecuteUbergraph_CB_Character
+[2018.07.01-15.22.37:860][221]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002133cfd87c0, Size=168
+[2018.07.01-15.22.37:860][221]LogUObjectGlobals: Created PersistentFrame Addr=0x000002133cfd87c0, Size=168, Default__CB_Character_C Function /Engine/Transient.REINST_CB_Character_C_5:ExecuteUbergraph_CB_Character
+[2018.07.01-15.22.37:870][221]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021372c531c0, Size=168, Default__CB_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.CB_Character_C:ExecuteUbergraph_CB_Character
+[2018.07.01-15.22.37:904][221]LogSlate: Took 0.000599 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.07.01-15.22.38:381][221]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
+[2018.07.01-15.22.38:708][221]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021362dd8d20, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.07.01-15.22.38:708][221]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021362dd8ce8, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.07.01-15.22.39:185][221]LogSlate: Took 0.000354 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.07.01-15.22.39:348][222]LogSlate: Took 0.000617 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.07.01-15.22.49:398][700]LogUObjectGlobals: Created PersistentFrame Addr=0x000002130015b488, Size=4, Default__SKEL_CB_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.SKEL_CB_Character_C:ExecuteUbergraph_CB_Character
+[2018.07.01-15.22.56:082][ 25]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002130015b488, Size=4
+[2018.07.01-15.22.56:082][ 25]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213660eda48, Size=4, Default__SKEL_CB_Character_C Function /Engine/Transient.REINST_SKEL_CB_Character_C_21:ExecuteUbergraph_CB_Character
+[2018.07.01-15.22.56:085][ 25]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213660ee370, Size=4, Default__SKEL_CB_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.SKEL_CB_Character_C:ExecuteUbergraph_CB_Character
+[2018.07.01-15.23.11:324][772]BlueprintLog: New page: CB_Character 컴파일
+[2018.07.01-15.23.11:339][772]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213660ee370, Size=4
+[2018.07.01-15.23.11:339][772]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213001599b0, Size=4, Default__SKEL_CB_Character_C Function /Engine/Transient.REINST_SKEL_CB_Character_C_23:ExecuteUbergraph_CB_Character
+[2018.07.01-15.23.11:353][772]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021372c531c0, Size=168
+[2018.07.01-15.23.11:353][772]LogUObjectGlobals: Created PersistentFrame Addr=0x000002130095ea40, Size=168, CB_Character_C_20 Function /Engine/Transient.REINST_CB_Character_C_25:ExecuteUbergraph_CB_Character
+[2018.07.01-15.23.11:359][772]LogUObjectGlobals: Created PersistentFrame Addr=0x000002130095e980, Size=168, Default__CB_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.CB_Character_C:ExecuteUbergraph_CB_Character
+[2018.07.01-15.23.11:568][772]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002133cfd87c0, Size=168
+[2018.07.01-15.23.11:569][772]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213660eda48, Size=4
+[2018.07.01-15.23.11:569][772]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213001599b0, Size=4
+[2018.07.01-15.23.21:504][154]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213660ef940, Size=4, Default__SKEL_CB_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.SKEL_CB_Character_C:ExecuteUbergraph_CB_Character
+[2018.07.01-15.23.23:739][245]BlueprintLog: New page: CB_Character 컴파일
+[2018.07.01-15.23.23:754][245]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213660ef940, Size=4
+[2018.07.01-15.23.23:754][245]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021300159a28, Size=4, Default__SKEL_CB_Character_C Function /Engine/Transient.REINST_SKEL_CB_Character_C_29:ExecuteUbergraph_CB_Character
+[2018.07.01-15.23.23:771][245]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002130095e980, Size=168
+[2018.07.01-15.23.23:771][245]LogUObjectGlobals: Created PersistentFrame Addr=0x000002130095e980, Size=168, Default__CB_Character_C Function /Engine/Transient.REINST_CB_Character_C_31:ExecuteUbergraph_CB_Character
+[2018.07.01-15.23.23:778][245]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021300bfe740, Size=168, Default__CB_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.CB_Character_C:ExecuteUbergraph_CB_Character
+[2018.07.01-15.23.23:984][245]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021300159a28, Size=4
+[2018.07.01-15.24.19:527][ 86]LogUObjectGlobals: Created PersistentFrame Addr=0x000002137f4f4d08, Size=56, Default__Test_Character_AB_C Function /Game/PlayerCharacter/Blueprints/Test_Character_AB.Test_Character_AB_C:ExecuteUbergraph_Test_Character_AB
+[2018.07.01-15.24.19:533][ 86]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002137f4f4d08, Size=56
+[2018.07.01-15.24.19:533][ 86]LogUObjectGlobals: Created PersistentFrame Addr=0x000002137f4f4d08, Size=56, Default__Test_Character_AB_C Function /Engine/Transient.REINST_Test_Character_AB_C_0:ExecuteUbergraph_Test_Character_AB
+[2018.07.01-15.24.19:539][ 86]LogUObjectGlobals: Created PersistentFrame Addr=0x000002137e8460b8, Size=56, Default__Test_Character_AB_C Function /Game/PlayerCharacter/Blueprints/Test_Character_AB.Test_Character_AB_C:ExecuteUbergraph_Test_Character_AB
+[2018.07.01-15.24.19:911][ 86]LogSkeletalMesh: Skeletal Mesh found in DDC [3.949536ms] /Game/PlayerCharacter/Model/TestModel/Great_Sword_Idle.Great_Sword_Idle
+[2018.07.01-15.24.19:930][ 86]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.07.01-15.24.20:405][ 86]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.07.01-15.24.20:410][ 86]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2018.07.01-15.24.20:793][ 86]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_2:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.07.01-15.24.21:485][ 86]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2018.07.01-15.24.21:528][ 86]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.07.01-15.24.34:483][750]LogUObjectGlobals: Created PersistentFrame Addr=0x000002130541bf80, Size=4, Default__SKEL_Test_Character_AB_C Function /Game/PlayerCharacter/Blueprints/Test_Character_AB.SKEL_Test_Character_AB_C:ExecuteUbergraph_Test_Character_AB
+[2018.07.01-15.24.39:669][ 21]BlueprintLog: New page: Test_Character_AB 컴파일
+[2018.07.01-15.24.39:676][ 21]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002130541bf80, Size=4
+[2018.07.01-15.24.39:676][ 21]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021394bd3340, Size=4, Default__SKEL_Test_Character_AB_C Function /Engine/Transient.REINST_SKEL_Test_Character_AB_C_2:ExecuteUbergraph_Test_Character_AB
+[2018.07.01-15.24.39:683][ 21]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002137e8460b8, Size=56
+[2018.07.01-15.24.39:683][ 21]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021395025a60, Size=56, Test_Character_AB_C_2 Function /Engine/Transient.REINST_Test_Character_AB_C_3:ExecuteUbergraph_Test_Character_AB
+[2018.07.01-15.24.39:688][ 21]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021395026588, Size=56, Default__Test_Character_AB_C Function /Game/PlayerCharacter/Blueprints/Test_Character_AB.Test_Character_AB_C:ExecuteUbergraph_Test_Character_AB
+[2018.07.01-15.24.39:798][ 21]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021394bd3340, Size=4
+[2018.07.01-15.24.39:799][ 21]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002137f4f4d08, Size=56
+[2018.07.01-15.24.39:799][ 21]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002130095e980, Size=168
+[2018.07.01-15.25.24:799][ 38]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\kang\Desktop\UnrealEngine\ModelingResource\D_Va_Cruiser\animation\Great Sword Idle02.fbx)
+[2018.07.01-15.25.24:817][ 38]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.07.01-15.25.24:817][ 38]LogFbx: ItemName: NodeAttribute, ItemCount : 65
+[2018.07.01-15.25.24:817][ 38]LogFbx: ItemName: Model, ItemCount : 66
+[2018.07.01-15.25.24:817][ 38]LogFbx: ItemName: Material, ItemCount : 3
+[2018.07.01-15.25.24:817][ 38]LogFbx: ItemName: Texture, ItemCount : 3
+[2018.07.01-15.25.24:817][ 38]LogFbx: ItemName: Video, ItemCount : 3
+[2018.07.01-15.25.24:817][ 38]LogFbx: ItemName: AnimationStack, ItemCount : 2
+[2018.07.01-15.25.24:817][ 38]LogFbx: ItemName: AnimationLayer, ItemCount : 2
+[2018.07.01-15.25.24:817][ 38]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.07.01-15.25.24:817][ 38]LogFbx: ItemName: Pose, ItemCount : 1
+[2018.07.01-15.25.24:817][ 38]LogFbx: ItemName: Deformer, ItemCount : 53
+[2018.07.01-15.25.24:817][ 38]LogFbx: ItemName: AnimationCurveNode, ItemCount : 54
+[2018.07.01-15.25.24:817][ 38]LogFbx: ItemName: AnimationCurve, ItemCount : 315
+[2018.07.01-15.25.24:823][ 38]LogFbx: Loading FBX Scene from C:\Users\kang\Desktop\UnrealEngine\ModelingResource\D_Va_Cruiser\animation\Great Sword Idle02.fbx
+[2018.07.01-15.25.24:867][ 38]LogFbx: FBX Scene Loaded Succesfully
+[2018.07.01-15.25.35:437][ 38]LogSlate: Window 'FBX 임포트 옵션' being destroyed
+[2018.07.01-15.25.35:501][ 38]LogFbx: Loading FBX Scene from C:\Users\kang\Desktop\UnrealEngine\ModelingResource\D_Va_Cruiser\animation\Great Sword Idle02.fbx
+[2018.07.01-15.25.35:556][ 38]LogFbx: FBX Scene Loaded Succesfully
+[2018.07.01-15.25.35:561][ 38]LogFbx: =================================================
+[2018.07.01-15.25.35:561][ 38]LogFbx: Dumping Node START [Object001] 
+[2018.07.01-15.25.35:561][ 38]LogFbx: 	Total Deformer Count 1786674240.
+[2018.07.01-15.25.35:561][ 38]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.07.01-15.25.35:561][ 38]LogFbx: =================================================
+[2018.07.01-15.25.35:561][ 38]LogFbx: 	Attribute () Type (4).
+[2018.07.01-15.25.35:561][ 38]LogFbx: 		[Node Attribute Child 1] Object001 (Type Mesh).
+[2018.07.01-15.25.35:561][ 38]LogFbx: Dumping Node END [Object001]
+[2018.07.01-15.25.35:563][ 38]LogFbx: =================================================
+[2018.07.01-15.25.35:563][ 38]LogFbx: Dumping Node START [Object001] 
+[2018.07.01-15.25.35:563][ 38]LogFbx: 	Total Deformer Count 1786674240.
+[2018.07.01-15.25.35:563][ 38]LogFbx: 		[Node 1] Skin (Type Skin).
+[2018.07.01-15.25.35:563][ 38]LogFbx: =================================================
+[2018.07.01-15.25.35:563][ 38]LogFbx: 	Attribute () Type (4).
+[2018.07.01-15.25.35:563][ 38]LogFbx: 		[Node Attribute Child 1] Object001 (Type Mesh).
+[2018.07.01-15.25.35:563][ 38]LogFbx: Dumping Node END [Object001]
+[2018.07.01-15.25.35:563][ 38]LogFbx: SortedLinks :(0) Hips
+[2018.07.01-15.25.35:563][ 38]LogFbx: SortedLinks :(1) Spine
+[2018.07.01-15.25.35:563][ 38]LogFbx: SortedLinks :(2) Spine1
+[2018.07.01-15.25.35:563][ 38]LogFbx: SortedLinks :(3) Spine2
+[2018.07.01-15.25.35:563][ 38]LogFbx: SortedLinks :(4) Neck
+[2018.07.01-15.25.35:563][ 38]LogFbx: SortedLinks :(5) Head
+[2018.07.01-15.25.35:563][ 38]LogFbx: SortedLinks :(6) HeadTop_End
+[2018.07.01-15.25.35:563][ 38]LogFbx: SortedLinks :(7) LeftShoulder
+[2018.07.01-15.25.35:563][ 38]LogFbx: SortedLinks :(8) LeftArm
+[2018.07.01-15.25.35:563][ 38]LogFbx: SortedLinks :(9) LeftForeArm
+[2018.07.01-15.25.35:563][ 38]LogFbx: SortedLinks :(10) LeftHand
+[2018.07.01-15.25.35:563][ 38]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2018.07.01-15.25.35:563][ 38]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2018.07.01-15.25.35:563][ 38]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2018.07.01-15.25.35:563][ 38]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2018.07.01-15.25.35:563][ 38]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2018.07.01-15.25.35:563][ 38]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2018.07.01-15.25.35:563][ 38]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2018.07.01-15.25.35:563][ 38]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2018.07.01-15.25.35:563][ 38]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2018.07.01-15.25.35:563][ 38]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2018.07.01-15.25.35:563][ 38]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2018.07.01-15.25.35:563][ 38]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2018.07.01-15.25.35:563][ 38]LogFbx: SortedLinks :(23) LeftHandRing1
+[2018.07.01-15.25.35:563][ 38]LogFbx: SortedLinks :(24) LeftHandRing2
+[2018.07.01-15.25.35:563][ 38]LogFbx: SortedLinks :(25) LeftHandRing3
+[2018.07.01-15.25.35:563][ 38]LogFbx: SortedLinks :(26) LeftHandRing4
+[2018.07.01-15.25.35:563][ 38]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2018.07.01-15.25.35:563][ 38]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2018.07.01-15.25.35:563][ 38]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2018.07.01-15.25.35:564][ 38]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2018.07.01-15.25.35:564][ 38]LogFbx: SortedLinks :(31) RightShoulder
+[2018.07.01-15.25.35:564][ 38]LogFbx: SortedLinks :(32) RightArm
+[2018.07.01-15.25.35:564][ 38]LogFbx: SortedLinks :(33) RightForeArm
+[2018.07.01-15.25.35:564][ 38]LogFbx: SortedLinks :(34) RightHand
+[2018.07.01-15.25.35:564][ 38]LogFbx: SortedLinks :(35) RightHandThumb1
+[2018.07.01-15.25.35:564][ 38]LogFbx: SortedLinks :(36) RightHandThumb2
+[2018.07.01-15.25.35:564][ 38]LogFbx: SortedLinks :(37) RightHandThumb3
+[2018.07.01-15.25.35:564][ 38]LogFbx: SortedLinks :(38) RightHandThumb4
+[2018.07.01-15.25.35:564][ 38]LogFbx: SortedLinks :(39) RightHandIndex1
+[2018.07.01-15.25.35:564][ 38]LogFbx: SortedLinks :(40) RightHandIndex2
+[2018.07.01-15.25.35:564][ 38]LogFbx: SortedLinks :(41) RightHandIndex3
+[2018.07.01-15.25.35:564][ 38]LogFbx: SortedLinks :(42) RightHandIndex4
+[2018.07.01-15.25.35:564][ 38]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2018.07.01-15.25.35:564][ 38]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2018.07.01-15.25.35:564][ 38]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2018.07.01-15.25.35:564][ 38]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2018.07.01-15.25.35:564][ 38]LogFbx: SortedLinks :(47) RightHandRing1
+[2018.07.01-15.25.35:564][ 38]LogFbx: SortedLinks :(48) RightHandRing2
+[2018.07.01-15.25.35:564][ 38]LogFbx: SortedLinks :(49) RightHandRing3
+[2018.07.01-15.25.35:564][ 38]LogFbx: SortedLinks :(50) RightHandRing4
+[2018.07.01-15.25.35:564][ 38]LogFbx: SortedLinks :(51) RightHandPinky1
+[2018.07.01-15.25.35:564][ 38]LogFbx: SortedLinks :(52) RightHandPinky2
+[2018.07.01-15.25.35:564][ 38]LogFbx: SortedLinks :(53) RightHandPinky3
+[2018.07.01-15.25.35:564][ 38]LogFbx: SortedLinks :(54) RightHandPinky4
+[2018.07.01-15.25.35:564][ 38]LogFbx: SortedLinks :(55) LeftUpLeg
+[2018.07.01-15.25.35:564][ 38]LogFbx: SortedLinks :(56) LeftLeg
+[2018.07.01-15.25.35:564][ 38]LogFbx: SortedLinks :(57) LeftFoot
+[2018.07.01-15.25.35:564][ 38]LogFbx: SortedLinks :(58) LeftToeBase
+[2018.07.01-15.25.35:564][ 38]LogFbx: SortedLinks :(59) LeftToe_End
+[2018.07.01-15.25.35:564][ 38]LogFbx: SortedLinks :(60) RightUpLeg
+[2018.07.01-15.25.35:564][ 38]LogFbx: SortedLinks :(61) RightLeg
+[2018.07.01-15.25.35:564][ 38]LogFbx: SortedLinks :(62) RightFoot
+[2018.07.01-15.25.35:564][ 38]LogFbx: SortedLinks :(63) RightToeBase
+[2018.07.01-15.25.35:564][ 38]LogFbx: SortedLinks :(64) RightToe_End
+[2018.07.01-15.25.35:564][ 38]LogFbx: SortedLinks :(0) Hips
+[2018.07.01-15.25.35:564][ 38]LogFbx: SortedLinks :(1) Spine
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(2) Spine1
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(3) Spine2
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(4) Neck
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(5) Head
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(6) HeadTop_End
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(7) LeftShoulder
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(8) LeftArm
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(9) LeftForeArm
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(10) LeftHand
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(23) LeftHandRing1
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(24) LeftHandRing2
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(25) LeftHandRing3
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(26) LeftHandRing4
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(31) RightShoulder
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(32) RightArm
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(33) RightForeArm
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(34) RightHand
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(35) RightHandThumb1
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(36) RightHandThumb2
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(37) RightHandThumb3
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(38) RightHandThumb4
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(39) RightHandIndex1
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(40) RightHandIndex2
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(41) RightHandIndex3
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(42) RightHandIndex4
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(47) RightHandRing1
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(48) RightHandRing2
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(49) RightHandRing3
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(50) RightHandRing4
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(51) RightHandPinky1
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(52) RightHandPinky2
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(53) RightHandPinky3
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(54) RightHandPinky4
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(55) LeftUpLeg
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(56) LeftLeg
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(57) LeftFoot
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(58) LeftToeBase
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(59) LeftToe_End
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(60) RightUpLeg
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(61) RightLeg
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(62) RightFoot
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(63) RightToeBase
+[2018.07.01-15.25.35:565][ 38]LogFbx: SortedLinks :(64) RightToe_End
+[2018.07.01-15.25.35:566][ 38]LogFbx: Parsing AnimStack Take 001
+[2018.07.01-15.25.35:567][ 38]LogLinker: '/Game/PlayerCharacter/Model/TestModel/Great_Sword_Idle02_Take_001' 파일을 찾을 수 없습니다.
+[2018.07.01-15.25.35:567][ 38]LogLinker: '/Game/PlayerCharacter/Model/TestModel/Great_Sword_Idle02_Take_001' 파일을 찾을 수 없습니다.
+[2018.07.01-15.25.35:907][ 38]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/PlayerCharacter/Model/TestModel/Great_Sword_Idle02_Take_001.Great_Sword_Idle02_Take_001
+[2018.07.01-15.25.35:908][ 38]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Great_Sword_Idle02_Take_001) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.07.01-15.25.35:916][ 38]LogFbx: Parsing AnimStack mixamo.com
+[2018.07.01-15.25.35:919][ 38]LogLinker: '/Game/PlayerCharacter/Model/TestModel/Great_Sword_Idle02_mixamo_com' 파일을 찾을 수 없습니다.
+[2018.07.01-15.25.35:919][ 38]LogLinker: '/Game/PlayerCharacter/Model/TestModel/Great_Sword_Idle02_mixamo_com' 파일을 찾을 수 없습니다.
+[2018.07.01-15.25.36:252][ 38]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/PlayerCharacter/Model/TestModel/Great_Sword_Idle02_mixamo_com.Great_Sword_Idle02_mixamo_com
+[2018.07.01-15.25.36:252][ 38]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Great_Sword_Idle02_mixamo_com) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.07.01-15.25.39:061][174]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2018.07.01-15.25.39:107][174]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_9:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2018.07.01-15.25.39:589][174]LogRenderer: Reallocating scene render targets to support 1112x924 Format 9 NumSamples 1 (Frame:1).
+[2018.07.01-15.25.39:589][174]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.07.01-15.26.23:922][967]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PlayerCharacter/Blueprints/Idle_Run_BS" FILE="../../../../../../Users/kang/Documents/GitHub/ProjectT/Content/PlayerCharacter/Blueprints/Idle_Run_BS.uasset" SILENT=true
+[2018.07.01-15.26.23:970][967]LogSavePackage: Save=19.52ms
+[2018.07.01-15.26.23:970][967]LogSavePackage: Moving '../../../../../../Users/kang/Documents/GitHub/ProjectT/Saved/Idle_Run_BS5DC93DA1425499E8051F128BF12078E0.tmp' to '../../../../../../Users/kang/Documents/GitHub/ProjectT/Content/PlayerCharacter/Blueprints/Idle_Run_BS.uasset'
+[2018.07.01-15.26.23:984][967]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/kang/Documents/GitHub/ProjectT/Content/PlayerCharacter/Blueprints/Idle_Run_BS.uasset
+[2018.07.01-15.26.43:777][798]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213a402c6f0, Size=4, Default__SKEL_Test_Character_AB_C Function /Game/PlayerCharacter/Blueprints/Test_Character_AB.SKEL_Test_Character_AB_C:ExecuteUbergraph_Test_Character_AB
+[2018.07.01-15.26.45:113][851]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213a402c6f0, Size=4
+[2018.07.01-15.26.45:113][851]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213a402c6f0, Size=4, Default__SKEL_Test_Character_AB_C Function /Engine/Transient.REINST_SKEL_Test_Character_AB_C_5:ExecuteUbergraph_Test_Character_AB
+[2018.07.01-15.26.45:117][851]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213a402e988, Size=4, Default__SKEL_Test_Character_AB_C Function /Game/PlayerCharacter/Blueprints/Test_Character_AB.SKEL_Test_Character_AB_C:ExecuteUbergraph_Test_Character_AB
+[2018.07.01-15.31.33:685][735]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213a402c6f0, Size=4
+[2018.07.01-15.31.33:687][735]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021395025a60, Size=56
+[2018.07.01-15.31.33:688][735]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.032
+[2018.07.01-15.31.33:692][735]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PlayerCharacter/Blueprints/CB_Character] ([1] browsable assets)...
+[2018.07.01-15.31.33:692][735]OBJ SavePackage: Finished generating thumbnails for package [/Game/PlayerCharacter/Blueprints/CB_Character]
+[2018.07.01-15.31.33:748][735]LogSavePackage: Save=41.46ms
+[2018.07.01-15.31.33:748][735]LogSavePackage: Moving '../../../../../../Users/kang/Documents/GitHub/ProjectT/Saved/CB_Character_Auto11EC96DAB47382139A35839A45196B455.tmp' to '../../../../../../Users/kang/Documents/GitHub/ProjectT/Saved/Autosaves/Game/PlayerCharacter/Blueprints/CB_Character_Auto1.uasset'
+[2018.07.01-15.31.33:754][735]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/kang/Documents/GitHub/ProjectT/Saved/Autosaves/Game/PlayerCharacter/Blueprints/CB_Character_Auto1.uasset
+[2018.07.01-15.31.33:762][735]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PlayerCharacter/Blueprints/Test_Character_AB] ([1] browsable assets)...
+[2018.07.01-15.31.33:795][735]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/PlayerCharacter/Blueprints/Test_Character_AB.Test_Character_AB]
+[2018.07.01-15.31.33:796][735]OBJ SavePackage: Finished generating thumbnails for package [/Game/PlayerCharacter/Blueprints/Test_Character_AB]
+[2018.07.01-15.31.33:879][735]LogSavePackage: Save=50.20ms
+[2018.07.01-15.31.33:879][735]LogSavePackage: Moving '../../../../../../Users/kang/Documents/GitHub/ProjectT/Saved/Test_Character_AB_Auto144E7304346BD584BBE5E7DA78827E069.tmp' to '../../../../../../Users/kang/Documents/GitHub/ProjectT/Saved/Autosaves/Game/PlayerCharacter/Blueprints/Test_Character_AB_Auto1.uasset'
+[2018.07.01-15.31.33:885][735]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/kang/Documents/GitHub/ProjectT/Saved/Autosaves/Game/PlayerCharacter/Blueprints/Test_Character_AB_Auto1.uasset
+[2018.07.01-15.31.33:890][735]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PlayerCharacter/Model/TestModel/Great_Sword_Idle02_Take_001] ([1] browsable assets)...
+[2018.07.01-15.31.33:928][735]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/PlayerCharacter/Model/TestModel/Great_Sword_Idle02_Take_001.Great_Sword_Idle02_Take_001]
+[2018.07.01-15.31.33:928][735]OBJ SavePackage: Finished generating thumbnails for package [/Game/PlayerCharacter/Model/TestModel/Great_Sword_Idle02_Take_001]
+[2018.07.01-15.31.33:978][735]LogSavePackage: Save=23.29ms
+[2018.07.01-15.31.33:978][735]LogSavePackage: Moving '../../../../../../Users/kang/Documents/GitHub/ProjectT/Saved/Great_Sword_Idle02_Take_001_AutoE6280A4140BF72116829C9A17F1ECEBA.tmp' to '../../../../../../Users/kang/Documents/GitHub/ProjectT/Saved/Autosaves/Game/PlayerCharacter/Model/TestModel/Great_Sword_Idle02_Take_001_Auto1.uasset'
+[2018.07.01-15.31.33:983][735]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/kang/Documents/GitHub/ProjectT/Saved/Autosaves/Game/PlayerCharacter/Model/TestModel/Great_Sword_Idle02_Take_001_Auto1.uasset
+[2018.07.01-15.31.33:987][735]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PlayerCharacter/Model/TestModel/Great_Sword_Idle02_mixamo_com] ([1] browsable assets)...
+[2018.07.01-15.31.34:031][735]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/PlayerCharacter/Model/TestModel/Great_Sword_Idle02_mixamo_com.Great_Sword_Idle02_mixamo_com]
+[2018.07.01-15.31.34:031][735]OBJ SavePackage: Finished generating thumbnails for package [/Game/PlayerCharacter/Model/TestModel/Great_Sword_Idle02_mixamo_com]
+[2018.07.01-15.31.34:061][735]LogSavePackage: Save=24.80ms
+[2018.07.01-15.31.34:061][735]LogSavePackage: Moving '../../../../../../Users/kang/Documents/GitHub/ProjectT/Saved/Great_Sword_Idle02_mixamo_com_AuCC5377D84C43341E60F5118A6EADE2DC.tmp' to '../../../../../../Users/kang/Documents/GitHub/ProjectT/Saved/Autosaves/Game/PlayerCharacter/Model/TestModel/Great_Sword_Idle02_mixamo_com_Auto1.uasset'
+[2018.07.01-15.31.34:064][735]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/kang/Documents/GitHub/ProjectT/Saved/Autosaves/Game/PlayerCharacter/Model/TestModel/Great_Sword_Idle02_mixamo_com_Auto1.uasset
+[2018.07.01-15.31.34:064][735]LogFileHelpers: Auto-saving content packages took 0.377
+[2018.07.01-15.31.59:554][224]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213a402e988, Size=4
+[2018.07.01-15.31.59:554][224]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213a402e988, Size=4, Default__SKEL_Test_Character_AB_C Function /Engine/Transient.REINST_SKEL_Test_Character_AB_C_6:ExecuteUbergraph_Test_Character_AB
+[2018.07.01-15.31.59:561][224]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213a402d4c0, Size=4, Default__SKEL_Test_Character_AB_C Function /Game/PlayerCharacter/Blueprints/Test_Character_AB.SKEL_Test_Character_AB_C:ExecuteUbergraph_Test_Character_AB
+[2018.07.01-15.32.01:871][336]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213a402d4c0, Size=4
+[2018.07.01-15.32.01:871][336]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213a402d4c0, Size=4, Default__SKEL_Test_Character_AB_C Function /Engine/Transient.REINST_SKEL_Test_Character_AB_C_7:ExecuteUbergraph_Test_Character_AB
+[2018.07.01-15.32.01:874][336]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213a402dc98, Size=4, Default__SKEL_Test_Character_AB_C Function /Game/PlayerCharacter/Blueprints/Test_Character_AB.SKEL_Test_Character_AB_C:ExecuteUbergraph_Test_Character_AB
+[2018.07.01-15.32.17:089][ 95]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213a402dc98, Size=4
+[2018.07.01-15.32.17:089][ 95]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213a402dc98, Size=4, Default__SKEL_Test_Character_AB_C Function /Engine/Transient.REINST_SKEL_Test_Character_AB_C_8:ExecuteUbergraph_Test_Character_AB
+[2018.07.01-15.32.17:096][ 95]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213a402f0c0, Size=4, Default__SKEL_Test_Character_AB_C Function /Game/PlayerCharacter/Blueprints/Test_Character_AB.SKEL_Test_Character_AB_C:ExecuteUbergraph_Test_Character_AB
+[2018.07.01-15.32.25:366][503]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213a402f0c0, Size=4
+[2018.07.01-15.32.25:366][503]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213a402f0c0, Size=4, Default__SKEL_Test_Character_AB_C Function /Engine/Transient.REINST_SKEL_Test_Character_AB_C_9:ExecuteUbergraph_Test_Character_AB
+[2018.07.01-15.32.25:371][503]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213a402f5a0, Size=4, Default__SKEL_Test_Character_AB_C Function /Game/PlayerCharacter/Blueprints/Test_Character_AB.SKEL_Test_Character_AB_C:ExecuteUbergraph_Test_Character_AB
+[2018.07.01-15.32.28:584][660]BlueprintLog: New page: Test_Character_AB 컴파일
+[2018.07.01-15.32.28:592][660]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213a402f5a0, Size=4
+[2018.07.01-15.32.28:592][660]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213a402f5a0, Size=4, Default__SKEL_Test_Character_AB_C Function /Engine/Transient.REINST_SKEL_Test_Character_AB_C_10:ExecuteUbergraph_Test_Character_AB
+[2018.07.01-15.32.28:599][660]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021395026588, Size=56
+[2018.07.01-15.32.28:599][660]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021395026588, Size=56, Default__Test_Character_AB_C Function /Engine/Transient.REINST_Test_Character_AB_C_11:ExecuteUbergraph_Test_Character_AB
+[2018.07.01-15.32.28:606][660]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021395026550, Size=56, Default__Test_Character_AB_C Function /Game/PlayerCharacter/Blueprints/Test_Character_AB.Test_Character_AB_C:ExecuteUbergraph_Test_Character_AB
+[2018.07.01-15.32.28:707][660]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213a402f5a0, Size=4
+[2018.07.01-15.32.28:707][660]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213a402e988, Size=4
+[2018.07.01-15.32.28:707][660]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213a402f0c0, Size=4
+[2018.07.01-15.32.28:707][660]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213a402dc98, Size=4
+[2018.07.01-15.32.28:707][660]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213a402d4c0, Size=4
+[2018.07.01-15.32.31:429][788]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213a402f788, Size=4, Default__SKEL_CB_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.SKEL_CB_Character_C:ExecuteUbergraph_CB_Character
+[2018.07.01-15.32.55:954][ 83]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213a402f788, Size=4
+[2018.07.01-15.32.55:954][ 83]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213660eeb58, Size=4, Default__SKEL_CB_Character_C Function /Engine/Transient.REINST_SKEL_CB_Character_C_47:ExecuteUbergraph_CB_Character
+[2018.07.01-15.32.55:959][ 83]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213660ed6b0, Size=4, Default__SKEL_CB_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.SKEL_CB_Character_C:ExecuteUbergraph_CB_Character
+[2018.07.01-15.38.16:292][281]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213660ed6b0, Size=4
+[2018.07.01-15.38.16:292][281]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213b988d738, Size=4, Default__SKEL_CB_Character_C Function /Engine/Transient.REINST_SKEL_CB_Character_C_49:ExecuteUbergraph_CB_Character
+[2018.07.01-15.38.16:297][281]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213b988d2d0, Size=4, Default__SKEL_CB_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.SKEL_CB_Character_C:ExecuteUbergraph_CB_Character
+[2018.07.01-15.38.23:747][669]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213b988d2d0, Size=4
+[2018.07.01-15.38.23:747][669]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213b8bd1a80, Size=4, Default__SKEL_CB_Character_C Function /Engine/Transient.REINST_SKEL_CB_Character_C_51:ExecuteUbergraph_CB_Character
+[2018.07.01-15.38.23:752][669]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213b8bd1f10, Size=4, Default__SKEL_CB_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.SKEL_CB_Character_C:ExecuteUbergraph_CB_Character
+[2018.07.01-15.38.25:785][765]LogSlate: Took 0.019526 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.07.01-15.38.27:234][841]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213b8bd1f10, Size=4
+[2018.07.01-15.38.27:234][841]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213b8c68e10, Size=4, Default__SKEL_CB_Character_C Function /Engine/Transient.REINST_SKEL_CB_Character_C_53:ExecuteUbergraph_CB_Character
+[2018.07.01-15.38.27:241][841]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213b8c692a8, Size=4, Default__SKEL_CB_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.SKEL_CB_Character_C:ExecuteUbergraph_CB_Character
+[2018.07.01-15.38.28:485][900]BlueprintLog: New page: CB_Character 컴파일
+[2018.07.01-15.38.28:503][900]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213b8c692a8, Size=4
+[2018.07.01-15.38.28:504][900]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213b8c692a8, Size=4, Default__SKEL_CB_Character_C Function /Engine/Transient.REINST_SKEL_CB_Character_C_55:ExecuteUbergraph_CB_Character
+[2018.07.01-15.38.28:519][900]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021300bfe740, Size=168
+[2018.07.01-15.38.28:519][900]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213a43025c0, Size=168, Default__CB_Character_C Function /Engine/Transient.REINST_CB_Character_C_57:ExecuteUbergraph_CB_Character
+[2018.07.01-15.38.28:526][900]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021300bffa00, Size=168, Default__CB_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.CB_Character_C:ExecuteUbergraph_CB_Character
+[2018.07.01-15.38.28:721][900]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021395026588, Size=56
+[2018.07.01-15.38.28:721][900]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213b8c692a8, Size=4
+[2018.07.01-15.38.29:618][942]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213a402f5e8, Size=4, Default__SKEL_CB_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.SKEL_CB_Character_C:ExecuteUbergraph_CB_Character
+[2018.07.01-15.38.47:258][564]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213a402f5e8, Size=4
+[2018.07.01-15.38.47:258][564]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213b8e56718, Size=4, Default__SKEL_CB_Character_C Function /Engine/Transient.REINST_SKEL_CB_Character_C_61:ExecuteUbergraph_CB_Character
+[2018.07.01-15.38.47:265][564]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213b8e56c10, Size=4, Default__SKEL_CB_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.SKEL_CB_Character_C:ExecuteUbergraph_CB_Character
+[2018.07.01-15.41.53:393][ 45]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213a43025c0, Size=168
+[2018.07.01-15.41.53:395][ 45]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.044
+[2018.07.01-15.41.53:400][ 45]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PlayerCharacter/Blueprints/CB_Character] ([1] browsable assets)...
+[2018.07.01-15.41.53:401][ 45]OBJ SavePackage: Finished generating thumbnails for package [/Game/PlayerCharacter/Blueprints/CB_Character]
+[2018.07.01-15.41.53:471][ 45]LogSavePackage: Save=55.70ms
+[2018.07.01-15.41.53:471][ 45]LogSavePackage: Moving '../../../../../../Users/kang/Documents/GitHub/ProjectT/Saved/CB_Character_Auto27745F71C4886255BBDE10095E88C504D.tmp' to '../../../../../../Users/kang/Documents/GitHub/ProjectT/Saved/Autosaves/Game/PlayerCharacter/Blueprints/CB_Character_Auto2.uasset'
+[2018.07.01-15.41.53:475][ 45]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/kang/Documents/GitHub/ProjectT/Saved/Autosaves/Game/PlayerCharacter/Blueprints/CB_Character_Auto2.uasset
+[2018.07.01-15.41.53:477][ 45]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PlayerCharacter/Blueprints/Test_Character_AB] ([1] browsable assets)...
+[2018.07.01-15.41.53:500][ 45]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/PlayerCharacter/Blueprints/Test_Character_AB.Test_Character_AB]
+[2018.07.01-15.41.53:500][ 45]OBJ SavePackage: Finished generating thumbnails for package [/Game/PlayerCharacter/Blueprints/Test_Character_AB]
+[2018.07.01-15.41.53:548][ 45]LogSavePackage: Save=33.96ms
+[2018.07.01-15.41.53:548][ 45]LogSavePackage: Moving '../../../../../../Users/kang/Documents/GitHub/ProjectT/Saved/Test_Character_AB_Auto2BFC2B10244276A5E9133099EB15B28B4.tmp' to '../../../../../../Users/kang/Documents/GitHub/ProjectT/Saved/Autosaves/Game/PlayerCharacter/Blueprints/Test_Character_AB_Auto2.uasset'
+[2018.07.01-15.41.53:551][ 45]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/kang/Documents/GitHub/ProjectT/Saved/Autosaves/Game/PlayerCharacter/Blueprints/Test_Character_AB_Auto2.uasset
+[2018.07.01-15.41.53:551][ 45]LogFileHelpers: Auto-saving content packages took 0.156
+[2018.07.01-15.47.49:900][418]BlueprintLog: New page: CB_Character 컴파일
+[2018.07.01-15.47.49:923][418]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213b8e56c10, Size=4
+[2018.07.01-15.47.49:923][418]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213b8bd15f0, Size=4, Default__SKEL_CB_Character_C Function /Engine/Transient.REINST_SKEL_CB_Character_C_63:ExecuteUbergraph_CB_Character
+[2018.07.01-15.47.49:942][418]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021300bffa00, Size=168
+[2018.07.01-15.47.49:942][418]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213a3dd5840, Size=168, Default__CB_Character_C Function /Engine/Transient.REINST_CB_Character_C_65:ExecuteUbergraph_CB_Character
+[2018.07.01-15.47.49:952][418]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213a423c1c0, Size=168, Default__CB_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.CB_Character_C:ExecuteUbergraph_CB_Character
+[2018.07.01-15.47.50:141][418]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213b8bd15f0, Size=4
+[2018.07.01-15.49.01:093][522]BlueprintLog: New page: CB_Character 컴파일
+[2018.07.01-15.49.01:136][522]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213a423c1c0, Size=168
+[2018.07.01-15.49.01:136][522]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213a43001c0, Size=168, CB_Character_C_101 Function /Engine/Transient.REINST_CB_Character_C_69:ExecuteUbergraph_CB_Character
+[2018.07.01-15.49.01:146][522]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213950784c0, Size=168, Default__CB_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.CB_Character_C:ExecuteUbergraph_CB_Character
+[2018.07.01-15.49.01:344][522]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213a3dd5840, Size=168
+[2018.07.01-15.49.21:483][108]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213cd5a0cb0, Size=4, Default__SKEL_CB_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.SKEL_CB_Character_C:ExecuteUbergraph_CB_Character
+[2018.07.01-15.51.36:363][988]BlueprintLog: New page: CB_Character 컴파일
+[2018.07.01-15.51.36:393][988]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213cd5a0cb0, Size=4
+[2018.07.01-15.51.36:393][988]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213b9947638, Size=4, Default__SKEL_CB_Character_C Function /Engine/Transient.REINST_SKEL_CB_Character_C_73:ExecuteUbergraph_CB_Character
+[2018.07.01-15.51.36:419][988]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213950784c0, Size=168
+[2018.07.01-15.51.36:419][988]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213bb0da380, Size=168, Default__CB_Character_C Function /Engine/Transient.REINST_CB_Character_C_75:ExecuteUbergraph_CB_Character
+[2018.07.01-15.51.36:431][988]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213d4dbae00, Size=368, Default__CB_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.CB_Character_C:ExecuteUbergraph_CB_Character
+[2018.07.01-15.51.36:634][988]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213a43001c0, Size=168
+[2018.07.01-15.51.36:635][988]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213b9947638, Size=4
+[2018.07.01-15.51.37:372][ 20]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.07.01-15.51.37:391][ 20]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.01-15.51.37:392][ 20]PIE: New page: PIE 세션: Untitled_1 (2018. 7. 2. 오전 9:51:37)
+[2018.07.01-15.51.37:393][ 20]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.07.01-15.51.37:397][ 20]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004568s)
+[2018.07.01-15.51.37:398][ 20]LogAIModule: Creating AISystem for world Untitled_1
+[2018.07.01-15.51.37:399][ 20]LogPlayLevel: PIE: World Init took: (0.001539s)
+[2018.07.01-15.51.37:399][ 20]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.006307s)
+[2018.07.01-15.51.37:421][ 20]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213bb0da380, Size=168
+[2018.07.01-15.51.37:436][ 20]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.01-15.51.37:464][ 20]LogInit: FAudioDevice initialized.
+[2018.07.01-15.51.37:577][ 20]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213a43ef280, Size=368, Default__Test_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.CB_Character_C:ExecuteUbergraph_CB_Character
+[2018.07.01-15.51.37:582][ 20]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213a43ef280, Size=368
+[2018.07.01-15.51.37:583][ 20]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213cf160580, Size=368, Default__Test_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.CB_Character_C:ExecuteUbergraph_CB_Character
+[2018.07.01-15.51.37:583][ 20]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213cf160700, Size=368, Default__Test_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.CB_Character_C:ExecuteUbergraph_CB_Character
+[2018.07.01-15.51.37:595][ 20]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213bcf95940, Size=40, Default__PC_PlayerController_C Function /Game/PlayerGameMode/PC_PlayerController.PC_PlayerController_C:ExecuteUbergraph_PC_PlayerController
+[2018.07.01-15.51.37:598][ 20]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213bcf95940, Size=40
+[2018.07.01-15.51.37:598][ 20]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213bcf95940, Size=40, Default__PC_PlayerController_C Function /Engine/Transient.REINST_PC_PlayerController_C_78:ExecuteUbergraph_PC_PlayerController
+[2018.07.01-15.51.37:599][ 20]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213bcf95030, Size=40, Default__PC_PlayerController_C Function /Game/PlayerGameMode/PC_PlayerController.PC_PlayerController_C:ExecuteUbergraph_PC_PlayerController
+[2018.07.01-15.51.37:615][ 20]LogLoad: Game class is 'GM_PlayerGameMode_C'
+[2018.07.01-15.51.37:616][ 20]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.07.02-00.51.37
+[2018.07.01-15.51.37:616][ 20]LogWorld: Bringing up level for play took: 0.000988
+[2018.07.01-15.51.37:628][ 20]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2018.07.01-15.51.37:641][ 20]PIE: /Temp/UEDPIE_0_Untitled_1 에 대한 에디터에서 플레이 시작 시간: 1.246
+[2018.07.01-15.51.56:937][773]LogSlate: Window 'ProjectT 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
+[2018.07.01-15.51.57:016][773]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213bcf95940, Size=40
+[2018.07.01-15.51.57:017][773]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213cf160580, Size=368
+[2018.07.01-15.52.08:814][298]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.07.01-15.52.08:845][298]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.01-15.52.08:845][298]PIE: New page: PIE 세션: Untitled_1 (2018. 7. 2. 오전 9:52:08)
+[2018.07.01-15.52.08:845][298]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.07.01-15.52.08:847][298]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002181s)
+[2018.07.01-15.52.08:848][298]LogAIModule: Creating AISystem for world Untitled_1
+[2018.07.01-15.52.08:849][298]LogPlayLevel: PIE: World Init took: (0.001066s)
+[2018.07.01-15.52.08:849][298]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003425s)
+[2018.07.01-15.52.08:886][298]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.01-15.52.08:911][298]LogInit: FAudioDevice initialized.
+[2018.07.01-15.52.08:972][298]LogLoad: Game class is 'GM_PlayerGameMode_C'
+[2018.07.01-15.52.08:974][298]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.07.02-00.52.08
+[2018.07.01-15.52.08:974][298]LogWorld: Bringing up level for play took: 0.000946
+[2018.07.01-15.52.08:989][298]PIE: /Temp/UEDPIE_0_Untitled_1 에 대한 에디터에서 플레이 시작 시간: 0.594
+[2018.07.01-15.52.34:249][143]LogSlate: Window 'ProjectT 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
+[2018.07.01-15.54.02:220][455]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.031
+[2018.07.01-15.54.02:225][455]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PlayerCharacter/Blueprints/CB_Character] ([1] browsable assets)...
+[2018.07.01-15.54.02:225][455]OBJ SavePackage: Finished generating thumbnails for package [/Game/PlayerCharacter/Blueprints/CB_Character]
+[2018.07.01-15.54.02:324][455]LogSavePackage: Save=82.45ms
+[2018.07.01-15.54.02:324][455]LogSavePackage: Moving '../../../../../../Users/kang/Documents/GitHub/ProjectT/Saved/CB_Character_Auto38472F7D64FADC10E800A89980DD78390.tmp' to '../../../../../../Users/kang/Documents/GitHub/ProjectT/Saved/Autosaves/Game/PlayerCharacter/Blueprints/CB_Character_Auto3.uasset'
+[2018.07.01-15.54.02:336][455]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/kang/Documents/GitHub/ProjectT/Saved/Autosaves/Game/PlayerCharacter/Blueprints/CB_Character_Auto3.uasset
+[2018.07.01-15.54.02:336][455]LogFileHelpers: Auto-saving content packages took 0.115
+[2018.07.01-15.55.55:797][494]BlueprintLog: New page: CB_Character 컴파일
+[2018.07.01-15.55.55:857][494]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213d4dbae00, Size=368
+[2018.07.01-15.55.55:857][494]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213beac4700, Size=368, Default__CB_Character_C Function /Engine/Transient.REINST_CB_Character_C_86:ExecuteUbergraph_CB_Character
+[2018.07.01-15.55.55:857][494]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213cf160700, Size=368
+[2018.07.01-15.55.55:857][494]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213beac4400, Size=368, Default__Test_Character_C Function /Engine/Transient.REINST_CB_Character_C_86:ExecuteUbergraph_CB_Character
+[2018.07.01-15.55.55:868][494]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213d568a500, Size=368, Default__CB_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.CB_Character_C:ExecuteUbergraph_CB_Character
+[2018.07.01-15.55.55:869][494]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213d5689480, Size=368, Default__Test_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.CB_Character_C:ExecuteUbergraph_CB_Character
+[2018.07.01-15.55.56:671][509]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.07.01-15.55.56:691][509]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.01-15.55.56:691][509]PIE: New page: PIE 세션: Untitled_1 (2018. 7. 2. 오전 9:55:56)
+[2018.07.01-15.55.56:691][509]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.07.01-15.55.56:694][509]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002603s)
+[2018.07.01-15.55.56:695][509]LogAIModule: Creating AISystem for world Untitled_1
+[2018.07.01-15.55.56:695][509]LogPlayLevel: PIE: World Init took: (0.001242s)
+[2018.07.01-15.55.56:695][509]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.004044s)
+[2018.07.01-15.55.56:734][509]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.01-15.55.56:759][509]LogInit: FAudioDevice initialized.
+[2018.07.01-15.55.56:822][509]LogLoad: Game class is 'GM_PlayerGameMode_C'
+[2018.07.01-15.55.56:823][509]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.07.02-00.55.56
+[2018.07.01-15.55.56:824][509]LogWorld: Bringing up level for play took: 0.000952
+[2018.07.01-15.55.56:841][509]PIE: /Temp/UEDPIE_0_Untitled_1 에 대한 에디터에서 플레이 시작 시간: 0.446
+[2018.07.01-15.56.07:636][893]LogSlate: Window 'ProjectT 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
+[2018.07.01-15.56.16:109][243]BlueprintLog: New page: CB_Character 컴파일
+[2018.07.01-15.56.16:165][243]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213d568a500, Size=368
+[2018.07.01-15.56.16:165][243]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213cf163100, Size=368, CB_Character_C_187 Function /Engine/Transient.REINST_CB_Character_C_94:ExecuteUbergraph_CB_Character
+[2018.07.01-15.56.16:165][243]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213d5689480, Size=368
+[2018.07.01-15.56.16:165][243]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213cf160d00, Size=368, Test_Character_C_26 Function /Engine/Transient.REINST_CB_Character_C_94:ExecuteUbergraph_CB_Character
+[2018.07.01-15.56.16:176][243]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213e1fab700, Size=368, Default__CB_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.CB_Character_C:ExecuteUbergraph_CB_Character
+[2018.07.01-15.56.16:176][243]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213e1fab100, Size=368, Default__Test_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.CB_Character_C:ExecuteUbergraph_CB_Character
+[2018.07.01-15.56.17:142][262]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.07.01-15.56.17:161][262]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.01-15.56.17:161][262]PIE: New page: PIE 세션: Untitled_1 (2018. 7. 2. 오전 9:56:17)
+[2018.07.01-15.56.17:162][262]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.07.01-15.56.17:164][262]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002474s)
+[2018.07.01-15.56.17:165][262]LogAIModule: Creating AISystem for world Untitled_1
+[2018.07.01-15.56.17:165][262]LogPlayLevel: PIE: World Init took: (0.001153s)
+[2018.07.01-15.56.17:165][262]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003832s)
+[2018.07.01-15.56.17:189][262]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213cf160d00, Size=368
+[2018.07.01-15.56.17:189][262]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213cf163100, Size=368
+[2018.07.01-15.56.17:203][262]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.01-15.56.17:227][262]LogInit: FAudioDevice initialized.
+[2018.07.01-15.56.17:292][262]LogLoad: Game class is 'GM_PlayerGameMode_C'
+[2018.07.01-15.56.17:294][262]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.07.02-00.56.17
+[2018.07.01-15.56.17:294][262]LogWorld: Bringing up level for play took: 0.001070
+[2018.07.01-15.56.17:313][262]PIE: /Temp/UEDPIE_0_Untitled_1 에 대한 에디터에서 플레이 시작 시간: 0.917
+[2018.07.01-15.56.19:499][334]LogSlate: Window 'ProjectT 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
+[2018.07.01-16.02.04:780][703]BlueprintLog: New page: CB_Character 컴파일
+[2018.07.01-16.02.04:842][703]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213e1fab700, Size=368
+[2018.07.01-16.02.04:842][703]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213d5105a80, Size=368, CB_Character_C_238 Function /Engine/Transient.REINST_CB_Character_C_102:ExecuteUbergraph_CB_Character
+[2018.07.01-16.02.04:843][703]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213e1fab100, Size=368
+[2018.07.01-16.02.04:843][703]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213d5106200, Size=368, Test_Character_C_47 Function /Engine/Transient.REINST_CB_Character_C_102:ExecuteUbergraph_CB_Character
+[2018.07.01-16.02.04:855][703]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213d2d43280, Size=368, Default__CB_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.CB_Character_C:ExecuteUbergraph_CB_Character
+[2018.07.01-16.02.04:856][703]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213d2d41480, Size=368, Default__Test_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.CB_Character_C:ExecuteUbergraph_CB_Character
+[2018.07.01-16.02.05:642][719]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.07.01-16.02.05:661][719]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.01-16.02.05:662][719]PIE: New page: PIE 세션: Untitled_1 (2018. 7. 2. 오전 10:02:05)
+[2018.07.01-16.02.05:662][719]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.07.01-16.02.05:664][719]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002485s)
+[2018.07.01-16.02.05:665][719]LogAIModule: Creating AISystem for world Untitled_1
+[2018.07.01-16.02.05:665][719]LogPlayLevel: PIE: World Init took: (0.001031s)
+[2018.07.01-16.02.05:665][719]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003696s)
+[2018.07.01-16.02.05:689][719]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213d5105a80, Size=368
+[2018.07.01-16.02.05:689][719]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213d5106200, Size=368
+[2018.07.01-16.02.05:702][719]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.01-16.02.05:732][719]LogInit: FAudioDevice initialized.
+[2018.07.01-16.02.05:794][719]LogLoad: Game class is 'GM_PlayerGameMode_C'
+[2018.07.01-16.02.05:796][719]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.07.02-01.02.05
+[2018.07.01-16.02.05:796][719]LogWorld: Bringing up level for play took: 0.001086
+[2018.07.01-16.02.05:812][719]PIE: /Temp/UEDPIE_0_Untitled_1 에 대한 에디터에서 플레이 시작 시간: -0.584
+[2018.07.01-16.02.33:243][722]LogSlate: Window 'ProjectT 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
+[2018.07.01-16.02.44:449][175]BlueprintLog: New page: CB_Character 컴파일
+[2018.07.01-16.02.44:515][175]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213d2d43280, Size=368
+[2018.07.01-16.02.44:515][175]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213d2155780, Size=368, CB_Character_C_259 Function /Engine/Transient.REINST_CB_Character_C_110:ExecuteUbergraph_CB_Character
+[2018.07.01-16.02.44:515][175]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213d2d41480, Size=368
+[2018.07.01-16.02.44:515][175]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213d2157700, Size=368, Test_Character_C_53 Function /Engine/Transient.REINST_CB_Character_C_110:ExecuteUbergraph_CB_Character
+[2018.07.01-16.02.44:526][175]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213e24b6200, Size=368, Default__CB_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.CB_Character_C:ExecuteUbergraph_CB_Character
+[2018.07.01-16.02.44:527][175]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213e24b5780, Size=368, Default__Test_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.CB_Character_C:ExecuteUbergraph_CB_Character
+[2018.07.01-16.02.45:316][186]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.07.01-16.02.45:336][186]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.01-16.02.45:336][186]PIE: New page: PIE 세션: Untitled_1 (2018. 7. 2. 오전 10:02:45)
+[2018.07.01-16.02.45:336][186]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.07.01-16.02.45:339][186]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002454s)
+[2018.07.01-16.02.45:340][186]LogAIModule: Creating AISystem for world Untitled_1
+[2018.07.01-16.02.45:340][186]LogPlayLevel: PIE: World Init took: (0.001037s)
+[2018.07.01-16.02.45:340][186]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003705s)
+[2018.07.01-16.02.45:362][186]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213d2157700, Size=368
+[2018.07.01-16.02.45:362][186]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213d2155780, Size=368
+[2018.07.01-16.02.45:375][186]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.01-16.02.45:400][186]LogInit: FAudioDevice initialized.
+[2018.07.01-16.02.45:466][186]LogLoad: Game class is 'GM_PlayerGameMode_C'
+[2018.07.01-16.02.45:469][186]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.07.02-01.02.45
+[2018.07.01-16.02.45:469][186]LogWorld: Bringing up level for play took: 0.000919
+[2018.07.01-16.02.45:486][186]PIE: /Temp/UEDPIE_0_Untitled_1 에 대한 에디터에서 플레이 시작 시간: 1.092
+[2018.07.01-16.03.03:160][727]LogSlate: Window 'ProjectT 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
+[2018.07.01-16.03.13:711][117]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.01-16.03.17:247][249]BlueprintLog: New page: CB_Character 컴파일
+[2018.07.01-16.03.17:318][249]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213e24b6200, Size=368
+[2018.07.01-16.03.17:318][249]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213be43d480, Size=368, CB_Character_C_290 Function /Engine/Transient.REINST_CB_Character_C_118:ExecuteUbergraph_CB_Character
+[2018.07.01-16.03.17:318][249]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213e24b5780, Size=368
+[2018.07.01-16.03.17:318][249]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213be43f580, Size=368, Test_Character_C_59 Function /Engine/Transient.REINST_CB_Character_C_118:ExecuteUbergraph_CB_Character
+[2018.07.01-16.03.17:332][249]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213d5183b80, Size=368, Default__CB_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.CB_Character_C:ExecuteUbergraph_CB_Character
+[2018.07.01-16.03.17:333][249]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213d5183400, Size=368, Default__Test_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.CB_Character_C:ExecuteUbergraph_CB_Character
+[2018.07.01-16.03.18:124][261]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.07.01-16.03.18:148][261]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.01-16.03.18:148][261]PIE: New page: PIE 세션: Untitled_1 (2018. 7. 2. 오전 10:03:18)
+[2018.07.01-16.03.18:148][261]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.07.01-16.03.18:153][261]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005050s)
+[2018.07.01-16.03.18:154][261]LogAIModule: Creating AISystem for world Untitled_1
+[2018.07.01-16.03.18:154][261]LogPlayLevel: PIE: World Init took: (0.001364s)
+[2018.07.01-16.03.18:154][261]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.006624s)
+[2018.07.01-16.03.18:177][261]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213be43f580, Size=368
+[2018.07.01-16.03.18:177][261]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213be43d480, Size=368
+[2018.07.01-16.03.18:190][261]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.01-16.03.18:216][261]LogInit: FAudioDevice initialized.
+[2018.07.01-16.03.18:287][261]LogLoad: Game class is 'GM_PlayerGameMode_C'
+[2018.07.01-16.03.18:289][261]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.07.02-01.03.18
+[2018.07.01-16.03.18:289][261]LogWorld: Bringing up level for play took: 0.001037
+[2018.07.01-16.03.18:304][261]PIE: /Temp/UEDPIE_0_Untitled_1 에 대한 에디터에서 플레이 시작 시간: -0.091
+[2018.07.01-16.04.03:360][ 86]LogSlate: Window 'ProjectT 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
+[2018.07.01-16.06.25:301][725]BlueprintLog: New page: CB_Character 컴파일
+[2018.07.01-16.06.25:363][725]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213d5183b80, Size=368
+[2018.07.01-16.06.25:363][725]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213d5183b80, Size=368, CB_Character_C_306 Function /Engine/Transient.REINST_CB_Character_C_126:ExecuteUbergraph_CB_Character
+[2018.07.01-16.06.25:363][725]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213d5183400, Size=368
+[2018.07.01-16.06.25:363][725]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213d5183400, Size=368, Test_Character_C_60 Function /Engine/Transient.REINST_CB_Character_C_126:ExecuteUbergraph_CB_Character
+[2018.07.01-16.06.25:378][725]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213d963a380, Size=368, Default__CB_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.CB_Character_C:ExecuteUbergraph_CB_Character
+[2018.07.01-16.06.25:379][725]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213d963a200, Size=368, Default__Test_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.CB_Character_C:ExecuteUbergraph_CB_Character
+[2018.07.01-16.06.37:545][257]BlueprintLog: New page: CB_Character 컴파일
+[2018.07.01-16.06.37:604][257]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213d963a380, Size=368
+[2018.07.01-16.06.37:604][257]LogUObjectGlobals: Created PersistentFrame Addr=0x000002137860cd00, Size=368, CB_Character_C_317 Function /Engine/Transient.REINST_CB_Character_C_134:ExecuteUbergraph_CB_Character
+[2018.07.01-16.06.37:604][257]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213d963a200, Size=368
+[2018.07.01-16.06.37:604][257]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021376ca4280, Size=368, Test_Character_C_61 Function /Engine/Transient.REINST_CB_Character_C_134:ExecuteUbergraph_CB_Character
+[2018.07.01-16.06.37:615][257]LogUObjectGlobals: Created PersistentFrame Addr=0x000002131499e680, Size=368, Default__CB_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.CB_Character_C:ExecuteUbergraph_CB_Character
+[2018.07.01-16.06.37:617][257]LogUObjectGlobals: Created PersistentFrame Addr=0x000002131499cb80, Size=368, Default__Test_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.CB_Character_C:ExecuteUbergraph_CB_Character
+[2018.07.01-16.06.37:899][257]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213d5183400, Size=368
+[2018.07.01-16.06.37:900][257]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213d5183b80, Size=368
+[2018.07.01-16.06.38:372][275]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.07.01-16.06.38:390][275]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.01-16.06.38:390][275]PIE: New page: PIE 세션: Untitled_1 (2018. 7. 2. 오전 10:06:38)
+[2018.07.01-16.06.38:390][275]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.07.01-16.06.38:393][275]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002235s)
+[2018.07.01-16.06.38:394][275]LogAIModule: Creating AISystem for world Untitled_1
+[2018.07.01-16.06.38:394][275]LogPlayLevel: PIE: World Init took: (0.001191s)
+[2018.07.01-16.06.38:394][275]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003587s)
+[2018.07.01-16.06.38:418][275]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021376ca4280, Size=368
+[2018.07.01-16.06.38:418][275]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002137860cd00, Size=368
+[2018.07.01-16.06.38:432][275]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.01-16.06.38:462][275]LogInit: FAudioDevice initialized.
+[2018.07.01-16.06.38:524][275]LogLoad: Game class is 'GM_PlayerGameMode_C'
+[2018.07.01-16.06.38:525][275]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.07.02-01.06.38
+[2018.07.01-16.06.38:525][275]LogWorld: Bringing up level for play took: 0.000972
+[2018.07.01-16.06.38:539][275]PIE: /Temp/UEDPIE_0_Untitled_1 에 대한 에디터에서 플레이 시작 시간: 0.144
+[2018.07.01-16.06.52:847][842]LogSlate: Window 'ProjectT 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
+[2018.07.01-16.07.00:542][117]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.01-16.07.06:923][345]BlueprintLog: New page: CB_Character 컴파일
+[2018.07.01-16.07.06:981][345]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002131499e680, Size=368
+[2018.07.01-16.07.06:981][345]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213d3906b00, Size=368, CB_Character_C_348 Function /Engine/Transient.REINST_CB_Character_C_142:ExecuteUbergraph_CB_Character
+[2018.07.01-16.07.06:981][345]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002131499cb80, Size=368
+[2018.07.01-16.07.06:981][345]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213d3905180, Size=368, Test_Character_C_67 Function /Engine/Transient.REINST_CB_Character_C_142:ExecuteUbergraph_CB_Character
+[2018.07.01-16.07.06:993][345]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021379872080, Size=368, Default__CB_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.CB_Character_C:ExecuteUbergraph_CB_Character
+[2018.07.01-16.07.06:994][345]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021379873b80, Size=368, Default__Test_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.CB_Character_C:ExecuteUbergraph_CB_Character
+[2018.07.01-16.07.07:913][363]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.07.01-16.07.07:936][363]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.01-16.07.07:936][363]PIE: New page: PIE 세션: Untitled_1 (2018. 7. 2. 오전 10:07:07)
+[2018.07.01-16.07.07:936][363]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.07.01-16.07.07:938][363]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002612s)
+[2018.07.01-16.07.07:940][363]LogAIModule: Creating AISystem for world Untitled_1
+[2018.07.01-16.07.07:941][363]LogPlayLevel: PIE: World Init took: (0.001284s)
+[2018.07.01-16.07.07:941][363]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.004114s)
+[2018.07.01-16.07.07:969][363]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213d3906b00, Size=368
+[2018.07.01-16.07.07:969][363]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213d3905180, Size=368
+[2018.07.01-16.07.07:987][363]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.01-16.07.08:022][363]LogInit: FAudioDevice initialized.
+[2018.07.01-16.07.08:086][363]LogLoad: Game class is 'GM_PlayerGameMode_C'
+[2018.07.01-16.07.08:088][363]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.07.02-01.07.08
+[2018.07.01-16.07.08:089][363]LogWorld: Bringing up level for play took: 0.001269
+[2018.07.01-16.07.08:102][363]PIE: /Temp/UEDPIE_0_Untitled_1 에 대한 에디터에서 플레이 시작 시간: -0.293
+[2018.07.01-16.07.09:712][417]LogSlate: Window 'ProjectT 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
+[2018.07.01-16.07.14:895][562]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.01-16.07.20:797][753]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.01-16.07.20:859][755]BlueprintLog: New page: CB_Character 컴파일
+[2018.07.01-16.07.20:950][755]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021379872080, Size=368
+[2018.07.01-16.07.20:950][755]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213d4db9d80, Size=368, CB_Character_C_384 Function /Engine/Transient.REINST_CB_Character_C_150:ExecuteUbergraph_CB_Character
+[2018.07.01-16.07.20:950][755]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021379873b80, Size=368
+[2018.07.01-16.07.20:950][755]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213d4dbb880, Size=368, Test_Character_C_68 Function /Engine/Transient.REINST_CB_Character_C_150:ExecuteUbergraph_CB_Character
+[2018.07.01-16.07.20:967][755]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213eb488d00, Size=368, Default__CB_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.CB_Character_C:ExecuteUbergraph_CB_Character
+[2018.07.01-16.07.20:969][755]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213eb488400, Size=368, Default__Test_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.CB_Character_C:ExecuteUbergraph_CB_Character
+[2018.07.01-16.07.22:039][770]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.07.01-16.07.22:060][770]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.01-16.07.22:061][770]PIE: New page: PIE 세션: Untitled_1 (2018. 7. 2. 오전 10:07:22)
+[2018.07.01-16.07.22:061][770]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.07.01-16.07.22:063][770]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001999s)
+[2018.07.01-16.07.22:064][770]LogAIModule: Creating AISystem for world Untitled_1
+[2018.07.01-16.07.22:064][770]LogPlayLevel: PIE: World Init took: (0.000923s)
+[2018.07.01-16.07.22:064][770]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003102s)
+[2018.07.01-16.07.22:088][770]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213d4dbb880, Size=368
+[2018.07.01-16.07.22:088][770]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213d4db9d80, Size=368
+[2018.07.01-16.07.22:102][770]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.01-16.07.22:128][770]LogInit: FAudioDevice initialized.
+[2018.07.01-16.07.22:189][770]LogLoad: Game class is 'GM_PlayerGameMode_C'
+[2018.07.01-16.07.22:190][770]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.07.02-01.07.22
+[2018.07.01-16.07.22:190][770]LogWorld: Bringing up level for play took: 0.000863
+[2018.07.01-16.07.22:203][770]PIE: /Temp/UEDPIE_0_Untitled_1 에 대한 에디터에서 플레이 시작 시간: -0.192
+[2018.07.01-16.07.31:560][160]LogSlate: Window 'ProjectT 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
+[2018.07.01-16.07.35:623][304]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.01-16.07.35:705][307]BlueprintLog: New page: CB_Character 컴파일
+[2018.07.01-16.07.35:761][307]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213eb488d00, Size=368
+[2018.07.01-16.07.35:761][307]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213d4dba980, Size=368, CB_Character_C_410 Function /Engine/Transient.REINST_CB_Character_C_158:ExecuteUbergraph_CB_Character
+[2018.07.01-16.07.35:761][307]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213eb488400, Size=368
+[2018.07.01-16.07.35:761][307]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213975e4580, Size=368, Test_Character_C_69 Function /Engine/Transient.REINST_CB_Character_C_158:ExecuteUbergraph_CB_Character
+[2018.07.01-16.07.35:774][307]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213cb651d80, Size=368, Default__CB_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.CB_Character_C:ExecuteUbergraph_CB_Character
+[2018.07.01-16.07.35:775][307]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213cb650280, Size=368, Default__Test_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.CB_Character_C:ExecuteUbergraph_CB_Character
+[2018.07.01-16.07.36:540][316]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.07.01-16.07.36:562][316]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.01-16.07.36:562][316]PIE: New page: PIE 세션: Untitled_1 (2018. 7. 2. 오전 10:07:36)
+[2018.07.01-16.07.36:562][316]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.07.01-16.07.36:564][316]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002193s)
+[2018.07.01-16.07.36:566][316]LogAIModule: Creating AISystem for world Untitled_1
+[2018.07.01-16.07.36:567][316]LogPlayLevel: PIE: World Init took: (0.002760s)
+[2018.07.01-16.07.36:567][316]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.005163s)
+[2018.07.01-16.07.36:590][316]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213975e4580, Size=368
+[2018.07.01-16.07.36:590][316]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213d4dba980, Size=368
+[2018.07.01-16.07.36:605][316]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.01-16.07.36:631][316]LogInit: FAudioDevice initialized.
+[2018.07.01-16.07.36:692][316]LogLoad: Game class is 'GM_PlayerGameMode_C'
+[2018.07.01-16.07.36:693][316]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.07.02-01.07.36
+[2018.07.01-16.07.36:693][316]LogWorld: Bringing up level for play took: 0.000786
+[2018.07.01-16.07.36:707][316]PIE: /Temp/UEDPIE_0_Untitled_1 에 대한 에디터에서 플레이 시작 시간: 0.313
+[2018.07.01-16.07.41:295][501]LogSlate: Window 'ProjectT 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
+[2018.07.01-16.07.45:089][613]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.01-16.07.45:176][616]BlueprintLog: New page: CB_Character 컴파일
+[2018.07.01-16.07.45:240][616]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213cb651d80, Size=368
+[2018.07.01-16.07.45:240][616]LogUObjectGlobals: Created PersistentFrame Addr=0x000002139477a800, Size=368, CB_Character_C_446 Function /Engine/Transient.REINST_CB_Character_C_166:ExecuteUbergraph_CB_Character
+[2018.07.01-16.07.45:241][616]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213cb650280, Size=368
+[2018.07.01-16.07.45:241][616]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213e1fa8400, Size=368, Test_Character_C_70 Function /Engine/Transient.REINST_CB_Character_C_166:ExecuteUbergraph_CB_Character
+[2018.07.01-16.07.45:252][616]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213ebc5d000, Size=368, Default__CB_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.CB_Character_C:ExecuteUbergraph_CB_Character
+[2018.07.01-16.07.45:253][616]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213ebc5c880, Size=368, Default__Test_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.CB_Character_C:ExecuteUbergraph_CB_Character
+[2018.07.01-16.07.46:249][635]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.07.01-16.07.46:275][635]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.01-16.07.46:276][635]PIE: New page: PIE 세션: Untitled_1 (2018. 7. 2. 오전 10:07:46)
+[2018.07.01-16.07.46:276][635]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.07.01-16.07.46:280][635]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004000s)
+[2018.07.01-16.07.46:281][635]LogAIModule: Creating AISystem for world Untitled_1
+[2018.07.01-16.07.46:281][635]LogPlayLevel: PIE: World Init took: (0.000999s)
+[2018.07.01-16.07.46:281][635]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.005249s)
+[2018.07.01-16.07.46:305][635]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213e1fa8400, Size=368
+[2018.07.01-16.07.46:305][635]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002139477a800, Size=368
+[2018.07.01-16.07.46:318][635]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.01-16.07.46:342][635]LogInit: FAudioDevice initialized.
+[2018.07.01-16.07.46:404][635]LogLoad: Game class is 'GM_PlayerGameMode_C'
+[2018.07.01-16.07.46:405][635]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.07.02-01.07.46
+[2018.07.01-16.07.46:405][635]LogWorld: Bringing up level for play took: 0.000929
+[2018.07.01-16.07.46:418][635]PIE: /Temp/UEDPIE_0_Untitled_1 에 대한 에디터에서 플레이 시작 시간: 0.023
+[2018.07.01-16.07.48:930][734]LogSlate: Window 'ProjectT 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
+[2018.07.01-16.07.52:949][869]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.01-16.07.53:035][872]BlueprintLog: New page: CB_Character 컴파일
+[2018.07.01-16.07.53:123][872]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213ebc5d000, Size=368
+[2018.07.01-16.07.53:123][872]LogUObjectGlobals: Created PersistentFrame Addr=0x000002139477b280, Size=368, CB_Character_C_472 Function /Engine/Transient.REINST_CB_Character_C_174:ExecuteUbergraph_CB_Character
+[2018.07.01-16.07.53:124][872]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213ebc5c880, Size=368
+[2018.07.01-16.07.53:124][872]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021394778b80, Size=368, Test_Character_C_71 Function /Engine/Transient.REINST_CB_Character_C_174:ExecuteUbergraph_CB_Character
+[2018.07.01-16.07.53:138][872]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213c09b8400, Size=368, Default__CB_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.CB_Character_C:ExecuteUbergraph_CB_Character
+[2018.07.01-16.07.53:140][872]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213eb488880, Size=368, Default__Test_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.CB_Character_C:ExecuteUbergraph_CB_Character
+[2018.07.01-16.07.54:393][907]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.07.01-16.07.54:412][907]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.01-16.07.54:412][907]PIE: New page: PIE 세션: Untitled_1 (2018. 7. 2. 오전 10:07:54)
+[2018.07.01-16.07.54:412][907]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.07.01-16.07.54:415][907]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002463s)
+[2018.07.01-16.07.54:417][907]LogAIModule: Creating AISystem for world Untitled_1
+[2018.07.01-16.07.54:418][907]LogPlayLevel: PIE: World Init took: (0.002509s)
+[2018.07.01-16.07.54:418][907]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.005253s)
+[2018.07.01-16.07.54:441][907]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021394778b80, Size=368
+[2018.07.01-16.07.54:441][907]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002139477b280, Size=368
+[2018.07.01-16.07.54:455][907]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.01-16.07.54:479][907]LogInit: FAudioDevice initialized.
+[2018.07.01-16.07.54:534][907]LogLoad: Game class is 'GM_PlayerGameMode_C'
+[2018.07.01-16.07.54:536][907]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.07.02-01.07.54
+[2018.07.01-16.07.54:536][907]LogWorld: Bringing up level for play took: 0.001053
+[2018.07.01-16.07.54:547][907]PIE: /Temp/UEDPIE_0_Untitled_1 에 대한 에디터에서 플레이 시작 시간: 0.152
+[2018.07.01-16.08.11:838][569]LogSlate: Window 'ProjectT 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
+[2018.07.01-16.08.20:613][846]BlueprintLog: New page: CB_Character 컴파일
+[2018.07.01-16.08.20:686][846]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213c09b8400, Size=368
+[2018.07.01-16.08.20:686][846]LogUObjectGlobals: Created PersistentFrame Addr=0x000002139477b280, Size=368, CB_Character_C_503 Function /Engine/Transient.REINST_CB_Character_C_182:ExecuteUbergraph_CB_Character
+[2018.07.01-16.08.20:686][846]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213eb488880, Size=368
+[2018.07.01-16.08.20:686][846]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021394779d80, Size=368, Test_Character_C_77 Function /Engine/Transient.REINST_CB_Character_C_182:ExecuteUbergraph_CB_Character
+[2018.07.01-16.08.20:702][846]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213d2aae980, Size=368, Default__CB_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.CB_Character_C:ExecuteUbergraph_CB_Character
+[2018.07.01-16.08.20:704][846]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213d2aae500, Size=368, Default__Test_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.CB_Character_C:ExecuteUbergraph_CB_Character
+[2018.07.01-16.08.21:591][858]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.07.01-16.08.21:620][858]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.01-16.08.21:620][858]PIE: New page: PIE 세션: Untitled_1 (2018. 7. 2. 오전 10:08:21)
+[2018.07.01-16.08.21:620][858]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.07.01-16.08.21:625][858]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003860s)
+[2018.07.01-16.08.21:626][858]LogAIModule: Creating AISystem for world Untitled_1
+[2018.07.01-16.08.21:626][858]LogPlayLevel: PIE: World Init took: (0.001651s)
+[2018.07.01-16.08.21:626][858]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.005736s)
+[2018.07.01-16.08.21:652][858]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021394779d80, Size=368
+[2018.07.01-16.08.21:652][858]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002139477b280, Size=368
+[2018.07.01-16.08.21:671][858]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.01-16.08.21:706][858]LogInit: FAudioDevice initialized.
+[2018.07.01-16.08.21:769][858]LogLoad: Game class is 'GM_PlayerGameMode_C'
+[2018.07.01-16.08.21:769][858]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.07.02-01.08.21
+[2018.07.01-16.08.21:771][858]LogWorld: Bringing up level for play took: 0.000914
+[2018.07.01-16.08.21:785][858]PIE: /Temp/UEDPIE_0_Untitled_1 에 대한 에디터에서 플레이 시작 시간: -0.611
+[2018.07.01-16.08.41:114][600]LogSlate: Window 'ProjectT 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
+[2018.07.01-16.08.48:275][872]BlueprintLog: New page: CB_Character 컴파일
+[2018.07.01-16.08.48:346][872]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213d2aae980, Size=368
+[2018.07.01-16.08.48:346][872]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213cb650880, Size=368, CB_Character_C_519 Function /Engine/Transient.REINST_CB_Character_C_190:ExecuteUbergraph_CB_Character
+[2018.07.01-16.08.48:346][872]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213d2aae500, Size=368
+[2018.07.01-16.08.48:346][872]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213cb651900, Size=368, Test_Character_C_78 Function /Engine/Transient.REINST_CB_Character_C_190:ExecuteUbergraph_CB_Character
+[2018.07.01-16.08.48:362][872]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213b8037280, Size=368, Default__CB_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.CB_Character_C:ExecuteUbergraph_CB_Character
+[2018.07.01-16.08.48:364][872]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213b8036080, Size=368, Default__Test_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.CB_Character_C:ExecuteUbergraph_CB_Character
+[2018.07.01-16.08.49:173][881]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.07.01-16.08.49:192][881]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.01-16.08.49:193][881]PIE: New page: PIE 세션: Untitled_1 (2018. 7. 2. 오전 10:08:49)
+[2018.07.01-16.08.49:193][881]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.07.01-16.08.49:196][881]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002521s)
+[2018.07.01-16.08.49:196][881]LogAIModule: Creating AISystem for world Untitled_1
+[2018.07.01-16.08.49:197][881]LogPlayLevel: PIE: World Init took: (0.001072s)
+[2018.07.01-16.08.49:197][881]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003874s)
+[2018.07.01-16.08.49:221][881]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213cb651900, Size=368
+[2018.07.01-16.08.49:221][881]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213cb650880, Size=368
+[2018.07.01-16.08.49:234][881]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.01-16.08.49:260][881]LogInit: FAudioDevice initialized.
+[2018.07.01-16.08.49:323][881]LogLoad: Game class is 'GM_PlayerGameMode_C'
+[2018.07.01-16.08.49:325][881]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.07.02-01.08.49
+[2018.07.01-16.08.49:325][881]LogWorld: Bringing up level for play took: 0.000974
+[2018.07.01-16.08.49:343][881]PIE: /Temp/UEDPIE_0_Untitled_1 에 대한 에디터에서 플레이 시작 시간: 0.947
+[2018.07.01-16.09.28:520][340]LogSlate: Window 'ProjectT 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
+[2018.07.01-16.09.37:527][732]LogTemp: Repeating last play command: 새 에디터 창 (PIE)
+[2018.07.01-16.09.37:549][732]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.07.01-16.09.37:549][732]PIE: New page: PIE 세션: Untitled_1 (2018. 7. 2. 오전 10:09:37)
+[2018.07.01-16.09.37:550][732]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.07.01-16.09.37:552][732]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002113s)
+[2018.07.01-16.09.37:553][732]LogAIModule: Creating AISystem for world Untitled_1
+[2018.07.01-16.09.37:553][732]LogPlayLevel: PIE: World Init took: (0.001054s)
+[2018.07.01-16.09.37:553][732]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003369s)
+[2018.07.01-16.09.37:589][732]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.01-16.09.37:618][732]LogInit: FAudioDevice initialized.
+[2018.07.01-16.09.37:684][732]LogLoad: Game class is 'GM_PlayerGameMode_C'
+[2018.07.01-16.09.37:685][732]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.07.02-01.09.37
+[2018.07.01-16.09.37:686][732]LogWorld: Bringing up level for play took: 0.001129
+[2018.07.01-16.09.37:701][732]PIE: /Temp/UEDPIE_0_Untitled_1 에 대한 에디터에서 플레이 시작 시간: -0.694
+[2018.07.01-16.10.22:793][390]LogSlate: Window 'ProjectT 게임 미리보기 Standalone (64-비트/PCD3D_SM5)' being destroyed
+[2018.07.01-16.10.39:572][ 98]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213b988d408, Size=4, Default__SKEL_CB_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.SKEL_CB_Character_C:ExecuteUbergraph_CB_Character
+[2018.07.01-16.10.39:575][ 98]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213b988e1a8, Size=4, Default__SKEL_Test_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.SKEL_CB_Character_C:ExecuteUbergraph_CB_Character
+[2018.07.01-16.11.04:001][179]BlueprintLog: New page: CB_Character 컴파일
+[2018.07.01-16.11.04:029][179]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213b988d408, Size=4
+[2018.07.01-16.11.04:029][179]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213b97d7cf8, Size=4, Default__SKEL_CB_Character_C Function /Engine/Transient.REINST_SKEL_CB_Character_C_198:ExecuteUbergraph_CB_Character
+[2018.07.01-16.11.04:029][179]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213b988e1a8, Size=4
+[2018.07.01-16.11.04:029][179]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213b97d4ff0, Size=4, Default__SKEL_Test_Character_C Function /Engine/Transient.REINST_SKEL_CB_Character_C_198:ExecuteUbergraph_CB_Character
+[2018.07.01-16.11.04:053][179]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213b8037280, Size=368
+[2018.07.01-16.11.04:053][179]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213b8037280, Size=368, CB_Character_C_535 Function /Engine/Transient.REINST_CB_Character_C_202:ExecuteUbergraph_CB_Character
+[2018.07.01-16.11.04:054][179]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213b8036080, Size=368
+[2018.07.01-16.11.04:054][179]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213b8036080, Size=368, Test_Character_C_79 Function /Engine/Transient.REINST_CB_Character_C_202:ExecuteUbergraph_CB_Character
+[2018.07.01-16.11.04:066][179]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213f2443b80, Size=360, Default__CB_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.CB_Character_C:ExecuteUbergraph_CB_Character
+[2018.07.01-16.11.04:067][179]LogUObjectGlobals: Created PersistentFrame Addr=0x00000213f2443580, Size=360, Default__Test_Character_C Function /Game/PlayerCharacter/Blueprints/CB_Character.CB_Character_C:ExecuteUbergraph_CB_Character
+[2018.07.01-16.11.04:348][179]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213b97d4ff0, Size=4
+[2018.07.01-16.11.04:348][179]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213b97d7cf8, Size=4
+[2018.07.01-16.11.08:753][373]LogSlate: Window 'Idle_Run_BS' being destroyed
+[2018.07.01-16.11.08:758][373]LogSlate: Window 'Idle_Run_BS' being destroyed
+[2018.07.01-16.11.11:454][384]LogSlate: Window '레벨 다른 이름으로 저장' being destroyed
+[2018.07.01-16.11.39:907][587]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213b8036080, Size=368
+[2018.07.01-16.11.39:907][587]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000213b8037280, Size=368
+[2018.07.01-16.11.40:032][587]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.155
+[2018.07.01-16.11.40:043][587]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PlayerCharacter/Blueprints/CB_Character] ([1] browsable assets)...
+[2018.07.01-16.11.40:043][587]OBJ SavePackage: Finished generating thumbnails for package [/Game/PlayerCharacter/Blueprints/CB_Character]
+[2018.07.01-16.11.40:153][587]LogSavePackage: Save=91.36ms
+[2018.07.01-16.11.40:153][587]LogSavePackage: Moving '../../../../../../Users/kang/Documents/GitHub/ProjectT/Saved/CB_Character_Auto4D2608D784E20CBF57051E09E39591746.tmp' to '../../../../../../Users/kang/Documents/GitHub/ProjectT/Saved/Autosaves/Game/PlayerCharacter/Blueprints/CB_Character_Auto4.uasset'
+[2018.07.01-16.11.40:277][587]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/kang/Documents/GitHub/ProjectT/Saved/Autosaves/Game/PlayerCharacter/Blueprints/CB_Character_Auto4.uasset
+[2018.07.01-16.11.40:279][587]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PlayerCharacter/Blueprints/Test_Character] ([1] browsable assets)...
+[2018.07.01-16.11.40:311][587]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/PlayerCharacter/Blueprints/Test_Character.Test_Character]
+[2018.07.01-16.11.40:311][587]OBJ SavePackage: Finished generating thumbnails for package [/Game/PlayerCharacter/Blueprints/Test_Character]
+[2018.07.01-16.11.40:350][587]LogSavePackage: Save=21.16ms
+[2018.07.01-16.11.40:350][587]LogSavePackage: Moving '../../../../../../Users/kang/Documents/GitHub/ProjectT/Saved/Test_Character_Auto4577DE6CB45C19FDF4518A2A45AF7069E.tmp' to '../../../../../../Users/kang/Documents/GitHub/ProjectT/Saved/Autosaves/Game/PlayerCharacter/Blueprints/Test_Character_Auto4.uasset'
+[2018.07.01-16.11.40:354][587]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/kang/Documents/GitHub/ProjectT/Saved/Autosaves/Game/PlayerCharacter/Blueprints/Test_Character_Auto4.uasset
+[2018.07.01-16.11.40:354][587]LogFileHelpers: Auto-saving content packages took 0.313
